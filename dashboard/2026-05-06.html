@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Design Studio — Daily Dashboard</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:#0a0a0f; color:#e0e0e0; font-family:'Inter',-apple-system,sans-serif; line-height:1.5; }
+.header { background:linear-gradient(135deg,#1a1a2e,#0f0f23); padding:2rem; border-bottom:1px solid #2a2a3e; }
+.header h1 { font-size:2rem; font-weight:700; color:#fff; }
+.header .date { color:#888; margin-top:0.25rem; }
+.metrics { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:1rem; padding:1.5rem 2rem; background:#111118; border-bottom:1px solid #1a1a2e; }
+.metric { background:#181825; border-radius:10px; padding:1.25rem; text-align:center; border:1px solid #2a2a3e; }
+.metric .value { font-size:2.5rem; font-weight:800; color:#6366f1; }
+.metric .label { font-size:0.8rem; color:#888; text-transform:uppercase; letter-spacing:1px; margin-top:0.25rem; }
+.grid { display:grid; grid-template-columns:1fr 1fr; gap:1.5rem; padding:1.5rem 2rem; }
+@media(max-width:900px){ .grid { grid-template-columns:1fr; } }
+.card { background:#111118; border-radius:12px; border:1px solid #2a2a3e; overflow:hidden; }
+.card-header { background:#181825; padding:1rem 1.25rem; border-bottom:1px solid #2a2a3e; font-weight:600; color:#fff; font-size:0.95rem; }
+.card-body { padding:1.25rem; }
+.source-row { display:flex; justify-content:space-between; padding:0.4rem 0; border-bottom:1px solid #1a1a2e; font-size:0.9rem; }
+.source-row:last-child { border-bottom:none; }
+.source-name { color:#ccc; }
+.source-count { color:#6366f1; font-weight:600; }
+.url-list { font-size:0.8rem; color:#aaa; max-height:300px; overflow-y:auto; }
+.url-list div { padding:0.3rem 0; border-bottom:1px solid #16161e; word-break:break-all; }
+.upgrade { display:flex; align-items:center; gap:0.75rem; padding:0.6rem 0; border-bottom:1px solid #1a1a2e; font-size:0.85rem; }
+.upgrade:last-child { border-bottom:none; }
+.badge { padding:2px 8px; border-radius:4px; font-size:0.7rem; font-weight:600; }
+.badge-critical { background:#7c3aed; color:#fff; }
+.badge-high { background:#059669; color:#fff; }
+.badge-deploy { background:#2563eb; color:#fff; }
+.badge-built { background:#d97706; color:#fff; }
+.competitor { padding:0.35rem 0; font-size:0.85rem; border-bottom:1px solid #1a1a2e; color:#bbb; }
+.footer { text-align:center; padding:2rem; color:#555; font-size:0.8rem; }
+.refresh { color:#6366f1; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Design Studio Dashboard</h1>
+  <div class="date">Wednesday, May 06, 2026 · 15:50 </div>
+</div>
+
+<div class="metrics">
+  <div class="metric">
+    <div class="value">57</div>
+    <div class="label">Total Signals</div>
+  </div>
+  <div class="metric">
+    <div class="value">7</div>
+    <div class="label">Design Inspiration</div>
+  </div>
+  <div class="metric">
+    <div class="value">15</div>
+    <div class="label">3D Scenes</div>
+  </div>
+  <div class="metric">
+    <div class="value">26</div>
+    <div class="label">OSS Repos</div>
+  </div>
+  <div class="metric">
+    <div class="value">8</div>
+    <div class="label">Competitors Tracked</div>
+  </div>
+  <div class="metric">
+    <div class="value">1</div>
+    <div class="label">UX Flows</div>
+  </div>
+</div>
+
+<div class="grid">
+  <!-- Inspiration Sources -->
+  <div class="card">
+    <div class="card-header">Design Inspiration Sources</div>
+    <div class="card-body"><div class="source-row"><span class="source-name">Lapa Ninja</span><span class="source-count">2</span></div><div class="source-row"><span class="source-name">MaxiBestOf</span><span class="source-count">5</span></div><div class="source-row"><span class="source-name">Summary</span><span class="source-count">0</span></div></div></div>
+
+  <!-- OSS Categories -->
+  <div class="card">
+    <div class="card-header">Open Source Discoveries</div>
+    <div class="card-body"><div class="source-row"><span class="source-name">3D (6)</span><span class="source-count">5</span></div><div class="source-row"><span class="source-name">Animation (12)</span><span class="source-count">5</span></div><div class="source-row"><span class="source-name">Design Systems (5)</span><span class="source-count">5</span></div><div class="source-row"><span class="source-name">Design Tools (4)</span><span class="source-count">4</span></div><div class="source-row"><span class="source-name">Icons (2)</span><span class="source-count">2</span></div><div class="source-row"><span class="source-name">Ui Components (12)</span><span class="source-count">5</span></div></div></div>
+
+  <!-- Competitor Signals -->
+  <div class="card">
+    <div class="card-header">Competitor Design Landscape</div>
+    <div class="card-body"><div class="competitor">- live: https://mobbin.com/browse/ios/apps (28 links)</div><div class="competitor">- live: https://refero.design (19 links)</div><div class="competitor">- live: https://screenlane.com (500 links)</div><div class="competitor">- live: https://uimovement.com (500 links)</div><div class="competitor">- live: https://collectui.com (337 links)</div><div class="source-row"><span class="source-name">Figma</span><span style="color:#888;font-size:0.8rem;">Next.js, Tailwind, React, FM, 3D</span></div><div class="source-row"><span class="source-name">Linear</span><span style="color:#888;font-size:0.8rem;">Next.js, React, 3D, CSS Vars</span></div><div class="source-row"><span class="source-name">Stripe</span><span style="color:#888;font-size:0.8rem;">Next.js, React, 3D, CSS Vars</span></div><div class="source-row"><span class="source-name">Vercel</span><span style="color:#888;font-size:0.8rem;">Next.js, Tailwind, React</span></div><div class="source-row"><span class="source-name">Notion</span><span style="color:#888;font-size:0.8rem;">Next.js, React, 3D</span></div><div class="source-row"><span class="source-name">Raycast</span><span style="color:#888;font-size:0.8rem;">Next.js, Tailwind, React, FM</span></div><div class="source-row"><span class="source-name">Arc</span><span style="color:#888;font-size:0.8rem;">Next.js, CSS Vars</span></div><div class="source-row"><span class="source-name">Replit</span><span style="color:#888;font-size:0.8rem;">Next.js, React</span></div></div></div>
+
+  <!-- Process Upgrades Tracker -->
+  <div class="card">
+    <div class="card-header">Process Upgrades</div>
+    <div class="card-body"><div class="upgrade">
+          <span class="badge badge-high">High</span>
+          <span class="badge badge-deploy">deployed</span>
+          <div>
+            <strong>3-Repo Methodology Mining</strong>
+            <div style="color:#888;font-size:0.75rem;">Extracted processes from SIO, RIG Business Studio, UX Design Scraper</div>
+          </div>
+        </div><div class="upgrade">
+          <span class="badge badge-high">High</span>
+          <span class="badge badge-deploy">deployed</span>
+          <div>
+            <strong>Spline Scraper</strong>
+            <div style="color:#888;font-size:0.75rem;">Autonomous daily scraping pipeline</div>
+          </div>
+        </div><div class="upgrade">
+          <span class="badge badge-high">High</span>
+          <span class="badge badge-deploy">deployed</span>
+          <div>
+            <strong>Mobbin Scraper</strong>
+            <div style="color:#888;font-size:0.75rem;">Autonomous daily scraping pipeline</div>
+          </div>
+        </div><div class="upgrade">
+          <span class="badge badge-high">High</span>
+          <span class="badge badge-deploy">deployed</span>
+          <div>
+            <strong>Design Scout</strong>
+            <div style="color:#888;font-size:0.75rem;">Autonomous daily scraping pipeline</div>
+          </div>
+        </div><div class="upgrade">
+          <span class="badge badge-high">High</span>
+          <span class="badge badge-deploy">deployed</span>
+          <div>
+            <strong>Godly Scraper</strong>
+            <div style="color:#888;font-size:0.75rem;">Autonomous daily scraping pipeline</div>
+          </div>
+        </div><div class="upgrade">
+          <span class="badge badge-critical">Critical</span>
+          <span class="badge badge-built">built (load manually)</span>
+          <div>
+            <strong>UX Design Scraper Extension</strong>
+            <div style="color:#888;font-size:0.75rem;">Chrome extension with 7-phase design workflow, Claude integration</div>
+          </div>
+        </div></div></div>
+
+  <!-- Today's URLs -->
+  <div class="card">
+    <div class="card-header">Today's Discovered URLs</div>
+    <div class="card-body url-list"><div><span style="color:#6366f1;">[Lapa Ninja]</span> https://cdn.lapa.ninja/assets/favicon/mobbin-fav.svg?v=1</div><div><span style="color:#6366f1;">[Lapa Ninja]</span> https://cdn.lapa.ninja/assets/images/the-ultimate-ui-design-roadmap.jpg?v=1</div><div><span style="color:#6366f1;">[MaxiBestOf]</span> https://chrome.google.com/webstore/detail/fontpulse/cleocobgmkpgofgjmimepcijlihmdglc</div><div><span style="color:#6366f1;">[MaxiBestOf]</span> https://x.com/intent/follow?screen_name=bertwitt</div><div><span style="color:#6366f1;">[MaxiBestOf]</span> https://forwardslabs.com</div><div><span style="color:#6366f1;">[MaxiBestOf]</span> https://privacykick.com/metadata-editor/pdf</div><div><span style="color:#6366f1;">[MaxiBestOf]</span> https://meazer.com/tools/voice-memos-to-text</div></div></div>
+
+  <!-- Quick Actions -->
+  <div class="card">
+    <div class="card-header">Actions &amp; Next Steps</div>
+    <div class="card-body">
+      <div class="upgrade">
+        <span class="badge badge-critical">TODO</span>
+        <div>
+          <strong>Load Chrome Extension</strong>
+          <div style="color:#888;">chrome://extensions → Developer → Load unpacked → ~/design-studio/extensions/ux-design-scraper</div>
+        </div>
+      </div>
+      <div class="upgrade">
+        <span class="badge badge-high">TODO</span>
+        <div>
+          <strong>Ingest UX Knowledge into Susan RAG</strong>
+          <div style="color:#888;">Run: ~/design-studio/scripts/ingest-ux-knowledge.sh</div>
+        </div>
+      </div>
+      <div class="upgrade">
+        <span class="badge badge-high">FIX</span>
+        <div>
+          <strong>Spline URL Extraction</strong>
+          <div style="color:#888;">Browser returns markdown with escaped newlines — need parser fix</div>
+        </div>
+      </div>
+      <div class="upgrade">
+        <span class="badge badge-high">FIX</span>
+        <div>
+          <strong>Mobbin Login Wall</strong>
+          <div style="color:#888;">Google OAuth failing in headless — try cookie-based auth</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <span class="refresh">↻ Next refresh: Tomorrow 8:00 AM MT</span><br>
+  Design Studio · Jake-powered · v1.0 · 2026-05-06
+</div>
+
+</body>
+</html>

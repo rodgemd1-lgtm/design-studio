@@ -1,8 +1,3 @@
-# Supabase local temp files
-supabase/.temp/
-
-# Node
-node_modules/
-
-# OS
-.DS_Store
+mining/
+extensions/
+dashboard/2026-05-06.html
