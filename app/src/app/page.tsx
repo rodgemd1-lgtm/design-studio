@@ -114,16 +114,16 @@ export default function Home() {
           </div>
           <div style={{background:"#141418",border:"1px solid #2a2a32",borderRadius:8,padding:20}}>
             <h2 style={{fontSize:14,fontWeight:600,marginBottom:16}}>◉ Site Extractions</h2>
-            {sitesList.slice(0,5).map(([name,s]:[string,SiteData]) => (
+            {sitesList.slice(0,5).map((item:any) => { const [name,s] = item; return (
               <div key={name} style={{marginBottom:16,paddingBottom:16,borderBottom:"1px solid #2a2a32"}}>
                 <div style={{display:"flex",justifyContent:"space-between",alignItems:"flex-start",marginBottom:4}}>
                   <div><div style={{fontSize:13,fontWeight:600}}>{name}</div><div style={{fontSize:10,color:"#8a8a9a",fontFamily:"monospace"}}>{s.url}</div></div>
                   <span style={{fontSize:18,fontWeight:700,color:"#0d9488"}}>{s.total}</span>
                 </div>
-                <div style={{display:"flex",gap:4,marginBottom:6}}>{(s.colors||[]).slice(0,5).map((c,i) => <div key={i} style={{width:16,height:16,borderRadius:4,background:c}}/>)}</div>
-                <div style={{display:"flex",gap:4,flexWrap:"wrap"}}>{(s.techniques||[]).map((t,i) => <span key={i} style={{fontSize:9,padding:"2px 8px",background:"rgba(13,148,136,0.15)",color:"#0d9488",border:"1px solid rgba(13,148,136,0.3)",borderRadius:4}}>{t.replace(/_/g," ")}</span>)}</div>
+                <div style={{display:"flex",gap:4,marginBottom:6}}>{(s.colors||[]).slice(0,5).map((c:string,i:number) => <div key={i} style={{width:16,height:16,borderRadius:4,background:c}}/>)}</div>
+                <div style={{display:"flex",gap:4,flexWrap:"wrap"}}>{(s.techniques||[]).map((t:string,i:number) => <span key={i} style={{fontSize:9,padding:"2px 8px",background:"rgba(13,148,136,0.15)",color:"#0d9488",border:"1px solid rgba(13,148,136,0.3)",borderRadius:4}}>{t.replace(/_/g," ")}</span>)}</div>
               </div>
-            ))}
+            )})}
           </div>
         </div>
 

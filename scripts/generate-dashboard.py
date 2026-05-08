@@ -5,7 +5,7 @@ Generates a daily HTML dashboard from all pipeline outputs.
 Run after the 5 daily cron jobs complete. Outputs to ~/design-studio/dashboard/.
 """
 
-import os, json, glob, time
+import os, json, glob, re, time
 from datetime import datetime, timedelta
 
 DS = os.path.expanduser("~/design-studio")
@@ -14,14 +14,30 @@ os.makedirs(DASHBOARD_DIR, exist_ok=True)
 
 VAULT = os.path.expanduser("~/rig-os-design-assets")
 INSPO_DIR = os.path.join(VAULT, "inspiration")
-TODAY = datetime.now().strftime("%Y-%m-%d")
-TODAY_STR = datetime.now().strftime("%A, %B %d, %Y")
+def resolve_report_date():
+    """Use today's pipeline data when present, otherwise render latest available run."""
+    today = datetime.now().strftime("%Y-%m-%d")
+    candidates = []
+    patterns = [
+        os.path.join(INSPO_DIR, "daily-hunt", "*.md"),
+        os.path.join(INSPO_DIR, "design-scout", "*.md"),
+        os.path.join(VAULT, "open-source", "daily-hunt", "*.md"),
+    ]
+    for pattern in patterns:
+        for path in glob.glob(pattern):
+            match = re.search(r"(\d{4}-\d{2}-\d{2})", os.path.basename(path))
+            if match:
+                candidates.append(match.group(1))
+    return today if today in candidates else max(candidates, default=today)
+
+TODAY = os.getenv("DESIGN_DASHBOARD_DATE") or resolve_report_date()
+TODAY_STR = datetime.strptime(TODAY, "%Y-%m-%d").strftime("%A, %B %d, %Y")
 
 # ── Data collectors ──
 
 def get_inspiration():
     f = os.path.join(INSPO_DIR, "daily-hunt", f"{TODAY}.md")
-    if not os.path.exists(f): return {"count": 0, "sources": []}
+    if not os.path.exists(f): return {"count": 0, "sources": {}}
     sources = {}
     current = None
     for line in open(f):
