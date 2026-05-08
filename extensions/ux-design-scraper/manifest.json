@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "UX Design Scraper",
-  "version": "1.0.0",
-  "description": "AI-powered UX/UI design intelligence scraper with Claude integration and Double Black Box methodology",
+  "version": "10.0.0",
+  "description": "AI-powered UX/UI design intelligence — MCP server, DTCG tokens, live DOM extraction, Claude integration, 7-phase design workflow",
   "permissions": [
     "activeTab",
     "tabs",

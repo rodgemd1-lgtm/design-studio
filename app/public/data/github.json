@@ -1,0 +1,2031 @@
+{
+  "date": "2026-05-07",
+  "repos_processed": 20,
+  "repos": [
+    {
+      "repo": "shadcn-ui/shadcn-ui__ui",
+      "url": "https://github.com/shadcn-ui/ui",
+      "category": "design-system",
+      "date": "2026-05-07",
+      "files": {
+        ".json": 4328,
+        ".tsx": 3110,
+        ".ts": 389,
+        ".png": 229,
+        ".mdx": 214,
+        ".css": 66,
+        ".js": 47,
+        ".md": 37,
+        ".yaml": 17,
+        ".mjs": 17,
+        ".svg": 15,
+        ".ico": 14,
+        ".jpg": 11,
+        ".gz": 10,
+        ".snap": 7
+      },
+      "design_tokens": [
+        {
+          "name": "--color-primary",
+          "value": "red"
+        },
+        {
+          "name": "--color-background",
+          "value": "white"
+        },
+        {
+          "name": "--color-foreground",
+          "value": "black"
+        },
+        {
+          "name": "--color-background",
+          "value": "white"
+        },
+        {
+          "name": "--color-foreground",
+          "value": "black"
+        },
+        {
+          "name": "--color-primary",
+          "value": "red"
+        },
+        {
+          "name": "--color-primary",
+          "value": "red"
+        },
+        {
+          "name": "--primary",
+          "value": "red"
+        },
+        {
+          "name": "--color-primary",
+          "value": "red"
+        },
+        {
+          "name": "--background",
+          "value": "0 0% 100%"
+        },
+        {
+          "name": "--foreground",
+          "value": "224 71.4% 4.1%"
+        },
+        {
+          "name": "--muted",
+          "value": "220 14.3% 95.9%"
+        },
+        {
+          "name": "--muted-foreground",
+          "value": "220 8.9% 46.1%"
+        },
+        {
+          "name": "--popover",
+          "value": "0 0% 100%"
+        },
+        {
+          "name": "--popover-foreground",
+          "value": "224 71.4% 4.1%"
+        },
+        {
+          "name": "--card",
+          "value": "0 0% 100%"
+        },
+        {
+          "name": "--card-foreground",
+          "value": "224 71.4% 4.1%"
+        },
+        {
+          "name": "--border",
+          "value": "220 13% 91%"
+        },
+        {
+          "name": "--input",
+          "value": "220 13% 91%"
+        },
+        {
+          "name": "--primary",
+          "value": "220.9 39.3% 11%"
+        },
+        {
+          "name": "--primary-foreground",
+          "value": "210 20% 98%"
+        },
+        {
+          "name": "--secondary",
+          "value": "220 14.3% 95.9%"
+        },
+        {
+          "name": "--secondary-foreground",
+          "value": "220.9 39.3% 11%"
+        },
+        {
+          "name": "--accent",
+          "value": "220 14.3% 95.9%"
+        },
+        {
+          "name": "--accent-foreground",
+          "value": "220.9 39.3% 11%"
+        },
+        {
+          "name": "--destructive",
+          "value": "0 84.2% 60.2%"
+        },
+        {
+          "name": "--destructive-foreground",
+          "value": "210 20% 98%"
+        },
+        {
+          "name": "--ring",
+          "value": "217.9 10.6% 64.9%"
+        },
+        {
+          "name": "--radius",
+          "value": "0.5rem"
+        },
+        {
+          "name": "--background",
+          "value": "224 71.4% 4.1%"
+        }
+      ],
+      "animation_patterns": [
+        "if",
+        "accordion-down",
+        "accordion-up",
+        "if",
+        "accordion-down",
+        "accordion-down",
+        "accordion-up",
+        "accordion-down",
+        "accordion-up",
+        "accordion-down",
+        "accordion-up",
+        "spin",
+        "spin",
+        "fade",
+        "spin-fast",
+        "fade",
+        "spin-fast",
+        "skeleton",
+        "skeleton",
+        "skeleton"
+      ],
+      "component_patterns": [
+        "Button",
+        "Card",
+        "CustomComponent",
+        "ExampleCard",
+        "RegularComponent",
+        "SidebarNav",
+        "SomeComponent"
+      ],
+      "dependencies": {
+        "deps": [
+          "@babel/core",
+          "@changesets/changelog-github",
+          "@changesets/cli",
+          "@commitlint/cli",
+          "@commitlint/config-conventional",
+          "@ianvs/prettier-plugin-sort-imports",
+          "@manypkg/cli",
+          "@typescript-eslint/eslint-plugin",
+          "@typescript-eslint/parser",
+          "autoprefixer",
+          "chokidar",
+          "concurrently",
+          "cross-env",
+          "eslint",
+          "eslint-config-next",
+          "eslint-config-prettier",
+          "eslint-config-turbo",
+          "eslint-plugin-react",
+          "eslint-plugin-tailwindcss",
+          "motion"
+        ],
+        "devDeps": [
+          "@types/hast",
+          "@types/node",
+          "@types/react",
+          "@types/react-dom",
+          "start-server-and-test",
+          "typescript"
+        ],
+        "description": "",
+        "keywords": []
+      },
+      "colors": [
+        "#000fff",
+        "#ffffff"
+      ]
+    },
+    {
+      "repo": "radix-ui/radix-ui__primitives",
+      "url": "https://github.com/radix-ui/primitives",
+      "category": "design-system",
+      "date": "2026-05-07",
+      "files": {
+        ".tsx": 162,
+        ".json": 144,
+        ".md": 121,
+        ".ts": 88,
+        ".mjs": 63,
+        ".css": 34,
+        ".js": 12,
+        ".yaml": 2,
+        ".png": 2,
+        ".mts": 1,
+        ".cjs": 1,
+        ".patch": 1,
+        ".snap": 1,
+        ".html": 1,
+        ".svg": 1
+      },
+      "design_tokens": [],
+      "animation_patterns": [],
+      "component_patterns": [],
+      "dependencies": {
+        "deps": [],
+        "devDeps": [
+          "@chance/eslint",
+          "@changesets/cli",
+          "@radix-ui/colors",
+          "@testing-library/cypress",
+          "@testing-library/dom",
+          "@testing-library/jest-dom",
+          "@testing-library/react",
+          "@testing-library/user-event",
+          "@types/fs-extra",
+          "@types/node",
+          "@types/react",
+          "@types/react-dom",
+          "@types/react-test-renderer",
+          "axe-core",
+          "cypress",
+          "cypress-axe",
+          "cypress-real-events",
+          "eslint",
+          "eslint-plugin-cypress",
+          "execa"
+        ],
+        "description": "",
+        "keywords": []
+      },
+      "colors": []
+    },
+    {
+      "repo": "adobe/adobe__react-spectrum",
+      "url": "https://github.com/adobe/react-spectrum",
+      "category": "design-system",
+      "date": "2026-05-07",
+      "files": {
+        ".svg": 2193,
+        ".json": 1956,
+        ".tsx": 1849,
+        ".ts": 1367,
+        ".mdx": 630,
+        ".js": 479,
+        ".css": 351,
+        ".md": 287,
+        ".avif": 200,
+        ".png": 117,
+        ".snap": 62,
+        ".mjs": 45,
+        ".jpg": 42,
+        ".webp": 24,
+        ".mp4": 24
+      },
+      "design_tokens": [],
+      "animation_patterns": [],
+      "component_patterns": [],
+      "dependencies": {
+        "deps": [],
+        "devDeps": [
+          "@actions/core",
+          "@actions/github",
+          "@babel/cli",
+          "@babel/core",
+          "@babel/eslint-parser",
+          "@babel/node",
+          "@babel/plugin-proposal-decorators",
+          "@babel/plugin-transform-runtime",
+          "@babel/preset-env",
+          "@babel/preset-react",
+          "@babel/preset-typescript",
+          "@babel/register",
+          "@eslint/compat",
+          "@eslint/eslintrc",
+          "@eslint/js",
+          "@faker-js/faker",
+          "@jdb8/eslint-plugin-monorepo",
+          "@octokit/rest",
+          "@parcel/bundler-library",
+          "@parcel/config-default"
+        ],
+        "description": "Spectrum UI components in React",
+        "keywords": []
+      },
+      "colors": []
+    },
+    {
+      "repo": "nextui-org/nextui-org__nextui",
+      "url": "https://github.com/nextui-org/nextui",
+      "category": "design-system",
+      "date": "2026-05-07",
+      "files": {
+        ".tsx": 923,
+        ".ts": 458,
+        ".mdx": 227,
+        ".css": 95,
+        ".mjs": 43,
+        ".json": 35,
+        ".md": 18,
+        ".png": 17,
+        ".svg": 6,
+        ".txt": 4,
+        ".jpg": 3,
+        ".ttf": 3,
+        ".yaml": 2,
+        ".js": 2,
+        ".html": 1
+      },
+      "design_tokens": [
+        {
+          "name": "--font-sans",
+          "value": "Inter, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\",\n    \"Segoe UI Sy"
+        },
+        {
+          "name": "--background",
+          "value": "lab(96.5432% -0.0000596046 0)"
+        },
+        {
+          "name": "--foreground",
+          "value": "lab(8.34178% 0.607349 -2.12998)"
+        },
+        {
+          "name": "--background",
+          "value": "lab(1.54547% 0.178337 -0.64671)"
+        },
+        {
+          "name": "--foreground",
+          "value": "lab(98.9676% -0.0000298023 -0.0000119209)"
+        },
+        {
+          "name": "--accent",
+          "value": "oklch(0.6204 0.195 253.83)\nconst SEMANTIC_HUE_BLEND_FACTOR = 0.12"
+        },
+        {
+          "name": "--background",
+          "value": "Apply hue and chroma adjustments\n  const background: ThemeColor = {\n    name: \"--background\",\n    ok"
+        },
+        {
+          "name": "--foreground",
+          "value": "Uses CSS variables (eclipse/snow), no adjustment needed\n  const foreground: ThemeColor = {\n    name:"
+        },
+        {
+          "name": "--accent",
+          "value": "Keep original chroma but adjust hue\n  const accent: ThemeColor = {\n    name: \"--accent\",\n    oklchLi"
+        },
+        {
+          "name": "--accent-foreground",
+          "value": "Uses CSS variable (snow), no adjustment needed\n  const accentForeground: ThemeColor = createThemeCol"
+        },
+        {
+          "name": "--muted",
+          "value": "Apply hue and chroma adjustments\n  const muted: ThemeColor = {\n    name: \"--muted\",\n    oklchLight: "
+        },
+        {
+          "name": "--default",
+          "value": "Apply hue and chroma adjustments\n  const defaultColor: ThemeColor = {\n    name: \"--default\",\n    okl"
+        },
+        {
+          "name": "--default-foreground",
+          "value": "Uses CSS variables (eclipse/snow), adjust hue for eclipse\n  const defaultForeground: ThemeColor = {\n"
+        },
+        {
+          "name": "--surface",
+          "value": "Apply hue and chroma adjustments\n  const surfaceColor: ThemeColor = {\n    name: \"--surface\",\n    okl"
+        },
+        {
+          "name": "--surface-secondary",
+          "value": "Apply hue and chroma adjustments\n  const surfaceSecondaryColor: ThemeColor = {\n    name: \"--surface-"
+        },
+        {
+          "name": "--surface-secondary-foreground",
+          "value": "Uses foreground value\n  const surfaceSecondaryForeground: ThemeColor = {\n    name: \"--surface-second"
+        },
+        {
+          "name": "--surface-tertiary",
+          "value": "Apply hue and chroma adjustments\n  const surfaceTertiaryColor: ThemeColor = {\n    name: \"--surface-t"
+        },
+        {
+          "name": "--surface-tertiary-foreground",
+          "value": "Uses foreground value\n  const surfaceTertiaryForeground: ThemeColor = {\n    name: \"--surface-tertiar"
+        },
+        {
+          "name": "--overlay",
+          "value": "Apply hue and chroma adjustments\n  const overlayColor: ThemeColor = {\n    name: \"--overlay\",\n    okl"
+        },
+        {
+          "name": "--scrollbar",
+          "value": "Apply hue and chroma adjustments\n  const scrollbar: ThemeColor = {\n    name: \"--scrollbar\",\n    oklc"
+        },
+        {
+          "name": "--segment",
+          "value": "Apply hue and chroma adjustments\n  const segment: ThemeColor = {\n    name: \"--segment\",\n    oklchLig"
+        },
+        {
+          "name": "--border",
+          "value": "Apply hue and chroma adjustments\n  const border: ThemeColor = {\n    name: \"--border\",\n    oklchLight"
+        },
+        {
+          "name": "--separator",
+          "value": "Apply hue and chroma adjustments\n  const separator: ThemeColor = {\n    name: \"--separator\",\n    oklc"
+        },
+        {
+          "name": "--background",
+          "value": "${getValue(colors.background)}`)"
+        },
+        {
+          "name": "--color-background",
+          "value": "${getValue(colors.background)}`)"
+        },
+        {
+          "name": "--foreground",
+          "value": "${getValue(colors.foreground)}`)"
+        },
+        {
+          "name": "--color-foreground",
+          "value": "${getValue(colors.foreground)}`)"
+        },
+        {
+          "name": "--accent",
+          "value": "${getValue(colors.accent)}`)"
+        },
+        {
+          "name": "--color-accent",
+          "value": "${getValue(colors.accent)}`)"
+        },
+        {
+          "name": "--accent-foreground",
+          "value": "${getValue(colors.accentForeground)}`)"
+        }
+      ],
+      "animation_patterns": [],
+      "component_patterns": [
+        "ComponentShowcase",
+        "Components",
+        "DemoComponents",
+        "SelectDemo",
+        "TabsDemo2",
+        "UIComponentsDemo"
+      ],
+      "dependencies": {
+        "deps": [],
+        "devDeps": [
+          "@babel/core",
+          "@babel/preset-react",
+          "@babel/preset-typescript",
+          "bumpp",
+          "@commitlint/cli",
+          "@commitlint/config-conventional",
+          "@eslint/eslintrc",
+          "@eslint/js",
+          "@heroui/standard",
+          "@next/eslint-plugin-next",
+          "@rollup/plugin-babel",
+          "@rollup/plugin-commonjs",
+          "@rollup/plugin-node-resolve",
+          "@rollup/plugin-typescript",
+          "@types/node",
+          "@typescript-eslint/eslint-plugin",
+          "@typescript-eslint/parser",
+          "babel-plugin-react-compiler",
+          "clean-package",
+          "dotenv"
+        ],
+        "description": "",
+        "keywords": []
+      },
+      "colors": [
+        "#000000",
+        "#006FEE",
+        "#060607",
+        "#09090B",
+        "#18181B",
+        "#18181b",
+        "#27272A",
+        "#3F3F46",
+        "#52525B",
+        "#71717A",
+        "#A1A1AA",
+        "#D4D4D8",
+        "#E4E4E7",
+        "#F4F4F5",
+        "#FAFAFA",
+        "#FFFFFF",
+        "#f5f5f5",
+        "#fcfcfc"
+      ]
+    },
+    {
+      "repo": "framer/framer__motion",
+      "url": "https://github.com/framer/motion",
+      "category": "animation",
+      "date": "2026-05-07",
+      "files": {
+        ".zip": 1446,
+        ".ts": 702,
+        ".tsx": 404,
+        ".html": 253,
+        ".json": 49,
+        ".js": 23,
+        ".md": 19,
+        ".mjs": 7,
+        ".css": 5,
+        ".cjs": 4,
+        ".yml": 2,
+        ".png": 2,
+        ".lock": 1
+      },
+      "design_tokens": [],
+      "animation_patterns": [],
+      "component_patterns": [],
+      "dependencies": {
+        "deps": [],
+        "devDeps": [
+          "@cypress/webpack-preprocessor",
+          "@gsap/react",
+          "@playwright/test",
+          "@rollup/plugin-alias",
+          "@rollup/plugin-node-resolve",
+          "@rollup/plugin-replace",
+          "@rollup/plugin-terser",
+          "@testing-library/dom",
+          "@testing-library/jest-dom",
+          "@testing-library/react",
+          "@types/jest",
+          "@types/node",
+          "@types/react",
+          "@types/react-dom",
+          "@types/styled-components",
+          "@typescript-eslint/eslint-plugin",
+          "@typescript-eslint/parser",
+          "animejs",
+          "concurrently",
+          "convert-tsconfig-paths-to-webpack-aliases"
+        ],
+        "description": "",
+        "keywords": []
+      },
+      "colors": []
+    },
+    {
+      "repo": "greensock/greensock__GSAP",
+      "url": "https://github.com/greensock/GSAP",
+      "category": "animation",
+      "date": "2026-05-07",
+      "files": {
+        ".js": 117,
+        ".ts": 34,
+        ".map": 25,
+        ".md": 2,
+        ".json": 1
+      },
+      "design_tokens": [],
+      "animation_patterns": [],
+      "component_patterns": [
+        "selector"
+      ],
+      "dependencies": {
+        "deps": [],
+        "devDeps": [],
+        "description": "GSAP is a robust JavaScript toolset that turns developers into animation superheroes. Build high-performance animations that work in **every** major browser. Animate CSS, SVG, canvas, React, Vue, WebGL, colors, strings, motion paths, generic objects...anything JavaScript can touch! The ScrollTrigger plugin lets you create jaw-dropping scroll-based animations with minimal code. No other library delivers such advanced sequencing, reliability, and tight control while solving real-world problems on millions of sites. GSAP works around countless browser inconsistencies; your animations **just work**. At its core, GSAP is a high-speed property manipulator, updating values over time with extreme accuracy. It's up to 20x faster than jQuery!",
+        "keywords": [
+          "GSAP",
+          "GreenSock",
+          "animation",
+          "MotionPathPlugin",
+          "motion",
+          "motionPath",
+          "ScrollTrigger",
+          "ScrollSmoother",
+          "Observer",
+          "easing",
+          "JavaScript",
+          "PixiPlugin",
+          "CustomEase",
+          "Flip",
+          "SVG",
+          "3D",
+          "2D",
+          "transform",
+          "morph",
+          "morphing",
+          "tweening",
+          "Webflow"
+        ]
+      },
+      "colors": [
+        "#0000FF",
+        "#6fb936"
+      ]
+    },
+    {
+      "repo": "pmndrs/pmndrs__react-spring",
+      "url": "https://github.com/pmndrs/react-spring",
+      "category": "animation",
+      "date": "2026-05-07",
+      "files": {
+        ".ts": 256,
+        ".tsx": 146,
+        ".json": 97,
+        ".css": 65,
+        ".png": 55,
+        ".html": 37,
+        ".mdx": 34,
+        ".md": 17,
+        ".jpeg": 9,
+        ".js": 7,
+        ".scss": 6,
+        ".glb": 4,
+        ".jpg": 4,
+        ".svg": 3,
+        ".cjs": 2
+      },
+      "design_tokens": [
+        {
+          "name": "--step0",
+          "value": "#ff403c"
+        },
+        {
+          "name": "--step1",
+          "value": "#86bfea"
+        },
+        {
+          "name": "--step2",
+          "value": "#f9a033"
+        },
+        {
+          "name": "--step3",
+          "value": "rgb(219, 86, 152)"
+        },
+        {
+          "name": "--step4",
+          "value": "#88ff88"
+        },
+        {
+          "name": "--webkit-user-select",
+          "value": "none"
+        }
+      ],
+      "animation_patterns": [],
+      "component_patterns": [],
+      "dependencies": {
+        "deps": [],
+        "devDeps": [
+          "@changesets/cli",
+          "@commitlint/cli",
+          "@commitlint/config-conventional",
+          "@react-three/fiber",
+          "@remix-run/dev",
+          "@simonsmith/cypress-image-snapshot",
+          "@swc/core",
+          "@swc/jest",
+          "@testing-library/cypress",
+          "@testing-library/dom",
+          "@testing-library/jest-dom",
+          "@testing-library/react",
+          "@types/fs-extra",
+          "@types/jest",
+          "@types/lodash.clamp",
+          "@types/lodash.shuffle",
+          "@types/react",
+          "@types/react-dom",
+          "@types/three",
+          "cypress"
+        ],
+        "description": "Cross-platform animation engine for React",
+        "keywords": [
+          "animated",
+          "animation",
+          "hooks",
+          "motion",
+          "react",
+          "react-native",
+          "spring",
+          "typescript",
+          "velocity"
+        ]
+      },
+      "colors": [
+        "#171717",
+        "#1b1a22",
+        "#24292e",
+        "#272727",
+        "#3398db",
+        "#37ceff",
+        "#5ee7df",
+        "#86bfea",
+        "#88ff88",
+        "#96fbc4",
+        "#b490ca",
+        "#c3cfe2",
+        "#f093fb",
+        "#f0f0f0",
+        "#f0f2f4",
+        "#f5576c",
+        "#f6d365",
+        "#f9a033",
+        "#f9f586",
+        "#fda085"
+      ]
+    },
+    {
+      "repo": "airbnb/airbnb__lottie-web",
+      "url": "https://github.com/airbnb/lottie-web",
+      "category": "animation",
+      "date": "2026-05-07",
+      "files": {
+        ".js": 217,
+        ".json": 83,
+        ".html": 10,
+        ".ts": 7,
+        ".gif": 5,
+        ".md": 4,
+        ".jpg": 2,
+        ".zip": 1,
+        ".zxp": 1,
+        ".jsx": 1,
+        ".aep": 1
+      },
+      "design_tokens": [],
+      "animation_patterns": [],
+      "component_patterns": [],
+      "dependencies": {
+        "deps": [],
+        "devDeps": [
+          "@babel/core",
+          "@babel/plugin-transform-runtime",
+          "@babel/preset-env",
+          "@rollup/plugin-babel",
+          "@rollup/plugin-node-resolve",
+          "cheerio",
+          "command-line-args",
+          "eslint",
+          "eslint-config-airbnb-base",
+          "eslint-plugin-import",
+          "express",
+          "pixelmatch",
+          "pngjs",
+          "puppeteer",
+          "rollup",
+          "rollup-plugin-terser",
+          "uglify-js",
+          "watch"
+        ],
+        "description": "After Effects plugin for exporting animations to SVG + JavaScript or canvas + JavaScript",
+        "keywords": [
+          "animation",
+          "canvas",
+          "svg",
+          "after effects",
+          "plugin",
+          "export"
+        ]
+      },
+      "colors": []
+    },
+    {
+      "repo": "pmndrs/pmndrs__react-three-fiber",
+      "url": "https://github.com/pmndrs/react-three-fiber",
+      "category": "3d",
+      "date": "2026-05-07",
+      "files": {
+        ".tsx": 52,
+        ".ts": 41,
+        ".mdx": 20,
+        ".md": 14,
+        ".json": 11,
+        ".gltf": 5,
+        ".snap": 5,
+        ".png": 4,
+        ".jpg": 4,
+        ".lock": 3,
+        ".js": 2,
+        ".glb": 2,
+        ".css": 2,
+        ".gif": 2,
+        ".html": 1
+      },
+      "design_tokens": [],
+      "animation_patterns": [],
+      "component_patterns": [],
+      "dependencies": {
+        "deps": [],
+        "devDeps": [
+          "@babel/core",
+          "@babel/preset-env",
+          "@babel/preset-react",
+          "@babel/preset-typescript",
+          "@changesets/changelog-git",
+          "@changesets/cli",
+          "@preconstruct/cli",
+          "@testing-library/react",
+          "@types/jest",
+          "@types/react",
+          "@types/react-dom",
+          "@types/react-native",
+          "@types/scheduler",
+          "@types/three",
+          "@typescript-eslint/eslint-plugin",
+          "@typescript-eslint/parser",
+          "eslint",
+          "eslint-config-prettier",
+          "eslint-import-resolver-alias",
+          "eslint-plugin-import"
+        ],
+        "description": "",
+        "keywords": []
+      },
+      "colors": [
+        "#272730",
+        "#808080",
+        "#b0b0b0",
+        "#dedddf",
+        "#f0f0f0",
+        "#ff5050"
+      ]
+    },
+    {
+      "repo": "pmndrs/pmndrs__drei",
+      "url": "https://github.com/pmndrs/drei",
+      "category": "3d",
+      "date": "2026-05-07",
+      "files": {
+        ".tsx": 264,
+        ".mdx": 134,
+        ".ts": 18,
+        ".png": 17,
+        ".jpg": 13,
+        ".json": 11,
+        ".glb": 6,
+        ".js": 4,
+        ".jpeg": 4,
+        ".mp3": 4,
+        ".md": 3,
+        ".glsl": 3,
+        ".css": 2,
+        ".ktx2": 2,
+        ".svg": 2
+      },
+      "design_tokens": [
+        {
+          "name": "--bg",
+          "value": "${bg}"
+        },
+        {
+          "name": "--txt",
+          "value": "${txt}"
+        }
+      ],
+      "animation_patterns": [],
+      "component_patterns": [
+        "PointerLockControlsSceneStWithSelector",
+        "TransformControlsSelectObjectSt",
+        "useTurntable"
+      ],
+      "dependencies": {
+        "deps": [
+          "@babel/runtime",
+          "@mediapipe/tasks-vision",
+          "@monogrid/gainmap-js",
+          "@use-gesture/react",
+          "camera-controls",
+          "cross-env",
+          "detect-gpu",
+          "glsl-noise",
+          "hls.js",
+          "maath",
+          "meshline",
+          "stats-gl",
+          "stats.js",
+          "suspend-react",
+          "three-mesh-bvh",
+          "three-stdlib",
+          "troika-three-text",
+          "tunnel-rat",
+          "use-sync-external-store",
+          "utility-types"
+        ],
+        "devDeps": [
+          "@babel/core",
+          "@babel/plugin-proposal-class-properties",
+          "@babel/plugin-proposal-nullish-coalescing-operator",
+          "@babel/plugin-transform-modules-commonjs",
+          "@babel/plugin-transform-runtime",
+          "@babel/preset-env",
+          "@babel/preset-react",
+          "@babel/preset-typescript",
+          "@chromatic-com/storybook",
+          "@eslint/compat",
+          "@eslint/eslintrc",
+          "@eslint/js",
+          "@playwright/test",
+          "@react-three/fiber",
+          "@rollup/plugin-babel",
+          "@rollup/plugin-commonjs",
+          "@rollup/plugin-json",
+          "@rollup/plugin-node-resolve",
+          "@storybook/addon-docs",
+          "@storybook/react-vite"
+        ],
+        "description": "useful add-ons for react-three-fiber",
+        "keywords": [
+          "react",
+          "three",
+          "threejs",
+          "react-three-fiber"
+        ]
+      },
+      "colors": [
+        "#000000",
+        "#000066",
+        "#121212",
+        "#303030",
+        "#3ead5d",
+        "#66bf3b",
+        "#69d2e7",
+        "#839681",
+        "#EC2D2D",
+        "#c9ffa1",
+        "#f10055",
+        "#f25042",
+        "#f38630",
+        "#ffffff"
+      ]
+    },
+    {
+      "repo": "mrdoob/mrdoob__three.js",
+      "url": "https://github.com/mrdoob/three.js",
+      "category": "3d",
+      "date": "2026-05-07",
+      "files": {
+        ".html": 1852,
+        ".js": 1615,
+        ".jpg": 830,
+        ".md": 817,
+        ".png": 206,
+        ".svg": 88,
+        ".glb": 45,
+        ".json": 35,
+        ".txt": 34,
+        ".css": 27,
+        ".mtlx": 20,
+        ".ktx2": 19,
+        ".hdr": 18,
+        ".pdb": 18,
+        ".bin": 17
+      },
+      "design_tokens": [
+        {
+          "name": "--color-blue",
+          "value": "#049EF4"
+        },
+        {
+          "name": "--text-color",
+          "value": "#444"
+        },
+        {
+          "name": "--font-size",
+          "value": "16px"
+        },
+        {
+          "name": "--line-height",
+          "value": "26px"
+        },
+        {
+          "name": "--border-style",
+          "value": "1px solid #E8E8E8"
+        },
+        {
+          "name": "--panel-width",
+          "value": "300px"
+        },
+        {
+          "name": "--page-padding",
+          "value": "24px"
+        },
+        {
+          "name": "--max-width",
+          "value": "760px"
+        },
+        {
+          "name": "--icon-size",
+          "value": "20px"
+        },
+        {
+          "name": "--text-color",
+          "value": "#bbb"
+        },
+        {
+          "name": "--border-style",
+          "value": "1px solid #444"
+        },
+        {
+          "name": "--panel-width",
+          "value": "360px"
+        },
+        {
+          "name": "--font-size",
+          "value": "18px"
+        },
+        {
+          "name": "--line-height",
+          "value": "28px"
+        },
+        {
+          "name": "--max-width",
+          "value": "880px"
+        },
+        {
+          "name": "--page-padding",
+          "value": "28px"
+        },
+        {
+          "name": "--icon-size",
+          "value": "24px"
+        },
+        {
+          "name": "--page-padding",
+          "value": "16px"
+        },
+        {
+          "name": "--icon-size",
+          "value": "24px"
+        },
+        {
+          "name": "--color-blue",
+          "value": "#049EF4"
+        },
+        {
+          "name": "--text-color",
+          "value": "#444"
+        },
+        {
+          "name": "--font-size",
+          "value": "16px"
+        },
+        {
+          "name": "--line-height",
+          "value": "26px"
+        },
+        {
+          "name": "--border-style",
+          "value": "1px solid #E8E8E8"
+        },
+        {
+          "name": "--panel-width",
+          "value": "300px"
+        },
+        {
+          "name": "--page-padding",
+          "value": "24px"
+        },
+        {
+          "name": "--max-width",
+          "value": "760px"
+        },
+        {
+          "name": "--icon-size",
+          "value": "20px"
+        },
+        {
+          "name": "--text-color",
+          "value": "#bbb"
+        },
+        {
+          "name": "--border-style",
+          "value": "1px solid #444"
+        }
+      ],
+      "animation_patterns": [
+        "blink"
+      ],
+      "component_patterns": [],
+      "dependencies": {
+        "deps": [],
+        "devDeps": [
+          "@eslint/js",
+          "@rollup/plugin-node-resolve",
+          "@rollup/plugin-terser",
+          "eslint",
+          "eslint-config-mdcs",
+          "eslint-plugin-compat",
+          "eslint-plugin-html",
+          "eslint-plugin-jsdoc",
+          "globals",
+          "jpeg-js",
+          "jsdoc",
+          "magic-string",
+          "pngjs",
+          "puppeteer",
+          "qunit",
+          "rollup",
+          "turndown"
+        ],
+        "description": "JavaScript 3D library",
+        "keywords": [
+          "three",
+          "three.js",
+          "javascript",
+          "3d",
+          "virtual-reality",
+          "augmented-reality",
+          "webgl",
+          "webgl2",
+          "webaudio",
+          "webgpu",
+          "webxr",
+          "canvas",
+          "svg",
+          "html5"
+        ]
+      },
+      "colors": [
+        "#049EF4",
+        "#06488a",
+        "#185795",
+        "#1b1b1b",
+        "#1b1b44",
+        "#2194ce",
+        "#222222",
+        "#22c0c4",
+        "#272822",
+        "#293832",
+        "#2a2a2a",
+        "#2e2e2e",
+        "#30b030",
+        "#333333",
+        "#373831",
+        "#3e999f",
+        "#404040",
+        "#412e32",
+        "#4271ae",
+        "#444444"
+      ]
+    },
+    {
+      "repo": "tailwindlabs/tailwindlabs__tailwindcss",
+      "url": "https://github.com/tailwindlabs/tailwindcss",
+      "category": "css",
+      "date": "2026-05-07",
+      "files": {
+        ".ts": 301,
+        ".rs": 58,
+        ".json": 45,
+        ".md": 25,
+        ".css": 18,
+        ".toml": 9,
+        ".mjs": 9,
+        ".cts": 9,
+        ".js": 7,
+        ".tsx": 6,
+        ".txt": 5,
+        ".haml": 4,
+        ".snap": 4,
+        ".yaml": 3,
+        ".html": 3
+      },
+      "design_tokens": [
+        {
+          "name": "--keep",
+          "value": "me"
+        },
+        {
+          "name": "--keep",
+          "value": "me"
+        },
+        {
+          "name": "--keep",
+          "value": "me"
+        },
+        {
+          "name": "--keep",
+          "value": "me"
+        },
+        {
+          "name": "--keep",
+          "value": "me"
+        },
+        {
+          "name": "--keep",
+          "value": "me"
+        },
+        {
+          "name": "--color-red-500",
+          "value": "#f00"
+        },
+        {
+          "name": "--color-blue-500",
+          "value": "#00f"
+        },
+        {
+          "name": "--color-red-500",
+          "value": "#f00"
+        },
+        {
+          "name": "--color-blue-500",
+          "value": "#00f"
+        },
+        {
+          "name": "--color-red-500",
+          "value": "#f00"
+        },
+        {
+          "name": "--color-blue-500",
+          "value": "#00f"
+        },
+        {
+          "name": "--color-my-red",
+          "value": "red"
+        },
+        {
+          "name": "--shadow",
+          "value": "0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)"
+        },
+        {
+          "name": "--default-ring-width",
+          "value": "4px"
+        },
+        {
+          "name": "--blur",
+          "value": "var(--custom-default-blur)"
+        },
+        {
+          "name": "--backdrop-blur",
+          "value": "var(--custom-default-blur)"
+        },
+        {
+          "name": "--radius-sm",
+          "value": "var(--custom-rounded-sm)"
+        },
+        {
+          "name": "--opacity-semitransparent",
+          "value": "50%"
+        },
+        {
+          "name": "--opacity-transparent",
+          "value": "100%"
+        },
+        {
+          "name": "--opacity-50_50",
+          "value": "50.5%"
+        },
+        {
+          "name": "--shadow-sm",
+          "value": "0 2px 6px rgb(15 23 42 / 0.08)"
+        },
+        {
+          "name": "--color-red-400",
+          "value": "#f87171"
+        },
+        {
+          "name": "--color-red-500",
+          "value": "#ef4444"
+        },
+        {
+          "name": "--color-red-600",
+          "value": "#dc2626"
+        },
+        {
+          "name": "--color-superRed",
+          "value": "#ff0000"
+        },
+        {
+          "name": "--color-steel",
+          "value": "rgb(70 130 180)"
+        },
+        {
+          "name": "--color-smoke",
+          "value": "rgba(245, 245, 245, var(--smoke-alpha, 1))"
+        },
+        {
+          "name": "--default-ring-color",
+          "value": "#c0ffee"
+        },
+        {
+          "name": "--opacity-superOpaque",
+          "value": "95%"
+        }
+      ],
+      "animation_patterns": [
+        "spin-clockwise",
+        "spin-counterclockwise",
+        "page_ping",
+        "page_ping",
+        "enter",
+        "-global-globalKeyframes",
+        "localKeyframes",
+        "globalKeyframes",
+        "svelte-",
+        "-global-globalKeyframes",
+        "localKeyframes",
+        "globalKeyframes",
+        "svelte-",
+        "globalKeyframes",
+        "svelte-"
+      ],
+      "component_patterns": [],
+      "dependencies": {
+        "deps": [],
+        "devDeps": [
+          "@playwright/test",
+          "@types/node",
+          "postcss",
+          "postcss-import",
+          "prettier",
+          "prettier-plugin-embed",
+          "prettier-plugin-organize-imports",
+          "tsup",
+          "turbo",
+          "typescript",
+          "vitest"
+        ],
+        "description": "",
+        "keywords": []
+      },
+      "colors": [
+        "#c0ffee",
+        "#dc2626",
+        "#ef4444",
+        "#f87171",
+        "#ff0000"
+      ]
+    },
+    {
+      "repo": "stitchesjs/stitchesjs__stitches",
+      "url": "https://github.com/stitchesjs/stitches",
+      "category": "css",
+      "date": "2026-05-07",
+      "files": {
+        ".js": 114,
+        ".ts": 33,
+        ".json": 13,
+        ".md": 7,
+        ".tsx": 5
+      },
+      "design_tokens": [],
+      "animation_patterns": [],
+      "component_patterns": [],
+      "dependencies": {
+        "deps": [
+          "@radix-ui/react-polymorphic",
+          "@radix-ui/react-separator",
+          "@skypack/package-check",
+          "@types/node",
+          "@types/react",
+          "@types/react-dom",
+          "@types/react-test-renderer",
+          "@typescript-eslint/eslint-plugin",
+          "@typescript-eslint/parser",
+          "acorn",
+          "acorn-class-fields",
+          "acorn-import-assertions",
+          "acorn-jsx",
+          "acorn-logical-assignment",
+          "acorn-private-methods",
+          "astring",
+          "csstype",
+          "esbuild",
+          "eslint",
+          "nodemon"
+        ],
+        "devDeps": [],
+        "description": "",
+        "keywords": []
+      },
+      "colors": []
+    },
+    {
+      "repo": "salesforce-ux/salesforce-ux__design-system",
+      "url": "https://github.com/salesforce-ux/design-system",
+      "category": "design-system",
+      "date": "2026-05-07",
+      "files": {
+        ".scss": 463,
+        ".jsx": 374,
+        ".js": 286,
+        ".yml": 219,
+        ".md": 158,
+        ".mdx": 111,
+        ".snap": 97,
+        ".png": 37,
+        ".json": 27,
+        ".jpg": 12,
+        ".svg": 8,
+        ".txt": 4,
+        ".sh": 3,
+        ".gif": 3,
+        ".pdf": 2
+      },
+      "design_tokens": [
+        {
+          "name": "--slds-c-input-color-border",
+          "value": "var(--slds-c-input-color-border-focus, var(--sds-c-input-color-border-focus, var(--slds-g-color-bran"
+        },
+        {
+          "name": "--slds-c-input-background-color",
+          "value": "var(--slds-c-input-color-background-focus, var(--sds-c-input-color-background-focus, var(--slds-g-co"
+        },
+        {
+          "name": "--slds-c-input-text-color",
+          "value": "var(--slds-c-input-text-color-focus, var(--sds-c-input-text-color-focus))"
+        },
+        {
+          "name": "--slds-c-input-shadow",
+          "value": "var(--slds-c-input-shadow-focus, var(--sds-c-input-shadow-focus, 0 0 3px #{$brand-accessible}))"
+        }
+      ],
+      "animation_patterns": [],
+      "component_patterns": [],
+      "dependencies": {
+        "deps": [
+          "@snyk/protect"
+        ],
+        "devDeps": [
+          "@axe-core/playwright",
+          "@babel/cli",
+          "@babel/core",
+          "@babel/node",
+          "@babel/plugin-proposal-object-rest-spread",
+          "@babel/plugin-syntax-dynamic-import",
+          "@babel/plugin-transform-modules-commonjs",
+          "@babel/plugin-transform-runtime",
+          "@babel/preset-env",
+          "@babel/preset-react",
+          "@babel/runtime",
+          "@epegzz/sass-vars-loader",
+          "@mdx-js/loader",
+          "@mdx-js/mdx",
+          "@sa11y/preset-rules",
+          "@salesforce-ux/build-server-api",
+          "@salesforce-ux/create-snap",
+          "@salesforce-ux/design-system-markup",
+          "@salesforce-ux/design-system-parser",
+          "@salesforce-ux/design-system-primitive-tokens"
+        ],
+        "description": "Salesforce Lightning Design System",
+        "keywords": [
+          "Salesforce",
+          "Lightning Design System",
+          "Design System",
+          "CSS"
+        ]
+      },
+      "colors": [
+        "#e5e5e5"
+      ]
+    },
+    {
+      "repo": "seek-oss/seek-oss__braid-design-system",
+      "url": "https://github.com/seek-oss/braid-design-system",
+      "category": "design-system",
+      "date": "2026-05-07",
+      "files": {
+        ".tsx": 724,
+        ".ts": 281,
+        ".svg": 126,
+        ".json": 31,
+        ".md": 18,
+        ".png": 9,
+        ".js": 5,
+        ".snap": 4,
+        ".cts": 4,
+        ".yaml": 3,
+        ".mjs": 1,
+        ".patch": 1,
+        ".cjs": 1,
+        ".mts": 1,
+        ".code-snippets": 1
+      },
+      "design_tokens": [
+        {
+          "name": "--dotColor",
+          "value": "${palette.grey[100]}"
+        },
+        {
+          "name": "--dotSpace",
+          "value": "8px"
+        },
+        {
+          "name": "--bgOffset",
+          "value": "calc((var(--dotSpace) / 2) * -1)"
+        },
+        {
+          "name": "--bgColor",
+          "value": "white"
+        },
+        {
+          "name": "--dotColor",
+          "value": "${palette.grey[700]}"
+        },
+        {
+          "name": "--bgColor",
+          "value": "${palette.grey[800]}"
+        }
+      ],
+      "animation_patterns": [],
+      "component_patterns": [
+        "CustomFormComponent",
+        "HeaderNavigation",
+        "MenuButton",
+        "SideNavigationItem",
+        "SideNavigationSection",
+        "searchButton"
+      ],
+      "dependencies": {
+        "deps": [
+          "@actions/core",
+          "@babel/preset-typescript",
+          "@changesets/cli",
+          "@changesets/get-github-info",
+          "@eslint/compat",
+          "@manypkg/cli",
+          "@octokit/rest",
+          "@types/fs-extra",
+          "@types/node",
+          "@types/react",
+          "@types/sanitize-html",
+          "@types/webpack-env",
+          "@vanilla-extract/vite-plugin",
+          "@vitejs/plugin-react",
+          "concurrently",
+          "depcheck",
+          "enquirer",
+          "eslint",
+          "eslint-config-seek",
+          "eslint-plugin-storybook"
+        ],
+        "devDeps": [],
+        "description": "",
+        "keywords": []
+      },
+      "colors": []
+    },
+    {
+      "repo": "processing/processing__p5.js",
+      "url": "https://github.com/processing/p5.js",
+      "category": "creative-coding",
+      "date": "2026-05-07",
+      "files": {
+        ".js": 476,
+        ".html": 214,
+        ".md": 150,
+        ".png": 115,
+        ".json": 43,
+        ".mp3": 29,
+        ".ogg": 27,
+        ".frag": 21,
+        ".jpg": 20,
+        ".gif": 19,
+        ".ttf": 17,
+        ".vert": 11,
+        ".obj": 10,
+        ".txt": 9,
+        ".otf": 9
+      },
+      "design_tokens": [],
+      "animation_patterns": [],
+      "component_patterns": [],
+      "dependencies": {
+        "deps": [],
+        "devDeps": [
+          "@babel/core",
+          "@babel/preset-env",
+          "@babel/register",
+          "all-contributors-cli",
+          "babel-plugin-i18next-extract",
+          "babel-plugin-istanbul",
+          "babelify",
+          "brfs-babel",
+          "browserify",
+          "chai",
+          "connect-modrewrite",
+          "core-js",
+          "derequire",
+          "es6-promise",
+          "eslint",
+          "fetch-jsonp",
+          "file-saver",
+          "gifenc",
+          "grunt",
+          "grunt-cli"
+        ],
+        "description": "[![npm version](https://badge.fury.io/js/p5.svg)](https://www.npmjs.com/package/p5)",
+        "keywords": []
+      },
+      "colors": [
+        "#00a1d3",
+        "#00d6b2",
+        "#0b97c4",
+        "#2d7bb6",
+        "#2f6fad",
+        "#5890ad",
+        "#696969",
+        "#704f21",
+        "#74ffb7",
+        "#8a6343",
+        "#8afff2",
+        "#98fb98",
+        "#a0a0a0",
+        "#a67f59",
+        "#ababab",
+        "#afafaf",
+        "#b3d4fc",
+        "#b94a48",
+        "#bababa",
+        "#c09853"
+      ]
+    },
+    {
+      "repo": "tabler/tabler__tabler-icons",
+      "url": "https://github.com/tabler/tabler-icons",
+      "category": "icons",
+      "date": "2026-05-07",
+      "files": {
+        ".svg": 6129,
+        ".ts": 54,
+        ".json": 52,
+        ".mjs": 37,
+        ".md": 18,
+        ".js": 18,
+        ".mdx": 15,
+        ".html": 9,
+        ".css": 9,
+        ".tsx": 9,
+        ".liquid": 5,
+        ".scss": 3,
+        ".svelte": 3,
+        ".yaml": 2,
+        ".mts": 2
+      },
+      "design_tokens": [],
+      "animation_patterns": [],
+      "component_patterns": [
+        "TABLER_ICONS",
+        "TABLER_ICON_CONFIG",
+        "provideTablerIconConfig",
+        "provideTablerIcons"
+      ],
+      "dependencies": {
+        "deps": [],
+        "devDeps": [
+          "@11ty/eleventy",
+          "@release-it-plugins/workspaces",
+          "@rollup/plugin-node-resolve",
+          "@testing-library/jest-dom",
+          "adm-zip",
+          "cheerio",
+          "dotenv",
+          "esbuild",
+          "fs-extra",
+          "glob",
+          "gray-matter",
+          "html-minifier",
+          "jest-serializer-html",
+          "jsdom",
+          "minimist",
+          "openai",
+          "parse-svg-path",
+          "prettier",
+          "release-it",
+          "rollup"
+        ],
+        "description": "",
+        "keywords": []
+      },
+      "colors": [
+        "#066fd1",
+        "#1a1a1a",
+        "#213547",
+        "#242424",
+        "#535bf2",
+        "#646cff",
+        "#747bff",
+        "#abcabc",
+        "#cacaca",
+        "#e1e1e1",
+        "#f9f9f9",
+        "#ff0000",
+        "#ff5733",
+        "#ffffff"
+      ]
+    },
+    {
+      "repo": "phosphor-icons/phosphor-icons__homepage",
+      "url": "https://github.com/phosphor-icons/homepage",
+      "category": "icons",
+      "date": "2026-05-07",
+      "files": {
+        ".svg": 9110,
+        ".ts": 38,
+        ".tsx": 27,
+        ".css": 15,
+        ".json": 9,
+        ".png": 8,
+        ".md": 2,
+        ".zip": 2,
+        ".jpg": 2,
+        ".yaml": 1,
+        ".html": 1,
+        ".ico": 1,
+        ".txt": 1,
+        ".code-snippets": 1,
+        ".gif": 1
+      },
+      "design_tokens": [
+        {
+          "name": "--red",
+          "value": "#e8612b"
+        },
+        {
+          "name": "--orange",
+          "value": "#ff8e51"
+        },
+        {
+          "name": "--yellow",
+          "value": "#f8c666"
+        },
+        {
+          "name": "--mustard",
+          "value": "#d6971e"
+        },
+        {
+          "name": "--rust",
+          "value": "#92543b"
+        },
+        {
+          "name": "--earth",
+          "value": "#825b61"
+        },
+        {
+          "name": "--sand",
+          "value": "#bcadaf"
+        },
+        {
+          "name": "--blush",
+          "value": "#f2cbd1"
+        },
+        {
+          "name": "--pale",
+          "value": "#ffe8dc"
+        },
+        {
+          "name": "--vellum",
+          "value": "#eeeae3"
+        },
+        {
+          "name": "--ghost",
+          "value": "#f7f5f1"
+        },
+        {
+          "name": "--foam",
+          "value": "#e9ebe2"
+        },
+        {
+          "name": "--lichen",
+          "value": "#d2d6c5"
+        },
+        {
+          "name": "--moss",
+          "value": "#3c402b"
+        },
+        {
+          "name": "--slate",
+          "value": "#3e3d3a"
+        },
+        {
+          "name": "--stone",
+          "value": "#343330"
+        },
+        {
+          "name": "--dark-grey",
+          "value": "#656461"
+        },
+        {
+          "name": "--acid",
+          "value": "#c4e456"
+        },
+        {
+          "name": "--olive",
+          "value": "#a4b55b"
+        },
+        {
+          "name": "--green",
+          "value": "#1fa647"
+        },
+        {
+          "name": "--darkgreen",
+          "value": "#2e321f"
+        },
+        {
+          "name": "--deepgreen",
+          "value": "#1f2310"
+        },
+        {
+          "name": "--blue",
+          "value": "#1f7fea"
+        },
+        {
+          "name": "--purple",
+          "value": "#925bff"
+        },
+        {
+          "name": "--eggplant",
+          "value": "#35313d"
+        },
+        {
+          "name": "--moss-shadow",
+          "value": "rgba(60, 64, 43, 0.2)"
+        },
+        {
+          "name": "--slate-sheer",
+          "value": "rgba(62, 61, 58, 0.5)"
+        },
+        {
+          "name": "--ghost-sheer",
+          "value": "rgba(247, 245, 241, 0.5)"
+        },
+        {
+          "name": "--elephant",
+          "value": "#656461"
+        },
+        {
+          "name": "--pewter",
+          "value": "#c9c5bf"
+        }
+      ],
+      "animation_patterns": [
+        "bounce",
+        "spin"
+      ],
+      "component_patterns": [],
+      "dependencies": {
+        "deps": [
+          "@phosphor-icons/core",
+          "@phosphor-icons/react",
+          "file-saver",
+          "fuse.js",
+          "motion",
+          "react",
+          "react-dom",
+          "react-dropdown-select",
+          "react-ga4",
+          "react-hotkeys-hook",
+          "svg2png-converter",
+          "tinycolor2",
+          "zustand"
+        ],
+        "devDeps": [
+          "@types/file-saver",
+          "@types/node",
+          "@types/react",
+          "@types/react-dom",
+          "@types/tinycolor2",
+          "@vitejs/plugin-react",
+          "iconjar-exporter",
+          "prettier",
+          "tsx",
+          "typescript",
+          "vite",
+          "vite-plugin-svgr"
+        ],
+        "description": "A flexible icon family for interfaces, diagrams, presentations \u2014 whatever, really.",
+        "keywords": [
+          "phosphor",
+          "icons",
+          "svg",
+          "design",
+          "interface",
+          "UI",
+          "UX"
+        ]
+      },
+      "colors": [
+        "#000000",
+        "#0E481E",
+        "#0E481F",
+        "#0EA147",
+        "#19873A",
+        "#1f2310",
+        "#1f7fea",
+        "#1fa647",
+        "#2e321f",
+        "#343330",
+        "#35313d",
+        "#3c402b",
+        "#3e3d3a",
+        "#442B78",
+        "#5B399F",
+        "#65461E",
+        "#656461",
+        "#825b61",
+        "#8861A8",
+        "#92543b"
+      ]
+    },
+    {
+      "repo": "pmndrs/pmndrs__react-use-measure",
+      "url": "https://github.com/pmndrs/react-use-measure",
+      "category": "layout",
+      "date": "2026-05-07",
+      "files": {
+        ".json": 2,
+        ".ts": 2,
+        ".md": 1,
+        ".lock": 1,
+        ".tsx": 1
+      },
+      "design_tokens": [],
+      "animation_patterns": [],
+      "component_patterns": [],
+      "dependencies": {
+        "deps": [],
+        "devDeps": [
+          "@testing-library/dom",
+          "@testing-library/react",
+          "@types/node",
+          "@types/react",
+          "@types/react-dom",
+          "@vitest/browser",
+          "playwright",
+          "react",
+          "react-dom",
+          "resize-observer-polyfill",
+          "rimraf",
+          "typescript",
+          "vite",
+          "vitest"
+        ],
+        "description": "Utility to measure view bounds",
+        "keywords": [
+          "react",
+          "use",
+          "measure",
+          "bounds",
+          "hooks"
+        ]
+      },
+      "colors": []
+    },
+    {
+      "repo": "barbajs/barbajs__barba",
+      "url": "https://github.com/barbajs/barba",
+      "category": "micro-interaction",
+      "date": "2026-05-07",
+      "files": {
+        ".ts": 113,
+        ".js": 30,
+        ".md": 13,
+        ".html": 13,
+        ".json": 12,
+        ".css": 4,
+        ".lock": 1,
+        ".hbs": 1,
+        ".yml": 1
+      },
+      "design_tokens": [],
+      "animation_patterns": [],
+      "component_patterns": [],
+      "dependencies": {
+        "deps": [],
+        "devDeps": [
+          "@commitlint/cli",
+          "@commitlint/config-conventional",
+          "@commitlint/config-lerna-scopes",
+          "@types/jest",
+          "@types/lodash",
+          "all-contributors-cli",
+          "babel-eslint",
+          "commitizen",
+          "commitlint-config-ccgls",
+          "coveralls",
+          "cypress",
+          "cz-ccgls",
+          "eslint",
+          "eslint-plugin-cypress",
+          "gzip-size",
+          "http-server",
+          "husky",
+          "jest",
+          "jest-environment-jsdom-global",
+          "jest-watch-lerna-packages"
+        ],
+        "description": "",
+        "keywords": []
+      },
+      "colors": [
+        "#69737d",
+        "#e0e2e5"
+      ]
+    }
+  ]
+}

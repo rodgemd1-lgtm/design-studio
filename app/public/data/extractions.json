@@ -1,0 +1,1468 @@
+[
+  {
+    "site": "stripe",
+    "url": "https://stripe.com",
+    "why": "Gold standard SaaS. Gradient animations, typography, micro-interactions.",
+    "date": "2026-05-07",
+    "content_type": "html",
+    "css_animations": [],
+    "gradients": [],
+    "colors": {
+      "hex": [
+        "#031323",
+        "#4285f4",
+        "#34a853",
+        "#fbbc04",
+        "#ea4335",
+        "#171d27",
+        "#ff6201",
+        "#76b900",
+        "#003478",
+        "#0052ff",
+        "#fbbc05",
+        "#95bf47",
+        "#5e8e3e",
+        "#2d2d2d",
+        "#a4ce4e",
+        "#0090da",
+        "#0061a0",
+        "#010202",
+        "#a11d2b",
+        "#873eff"
+      ],
+      "css_vars": []
+    },
+    "typography": {
+      "fonts": [],
+      "sizes": [],
+      "weights": []
+    },
+    "gsap": [],
+    "threejs": [],
+    "components": [
+      {
+        "type": "card",
+        "count": 6
+      },
+      {
+        "type": "dialog",
+        "count": 1
+      },
+      {
+        "type": "nav",
+        "count": 6
+      },
+      {
+        "type": "header",
+        "count": 8
+      },
+      {
+        "type": "footer",
+        "count": 1
+      },
+      {
+        "type": "grid",
+        "count": 1
+      },
+      {
+        "type": "hero",
+        "count": 30
+      },
+      {
+        "type": "pricing",
+        "count": 2
+      },
+      {
+        "type": "carousel",
+        "count": 1
+      }
+    ],
+    "motion": {
+      "scroll": [],
+      "hover": [],
+      "load": [],
+      "micro": []
+    },
+    "layout": {
+      "grids": [],
+      "flex": [],
+      "breakpoints": [],
+      "spacing": []
+    },
+    "techniques": [
+      "sticky_header",
+      "micro_interaction"
+    ],
+    "content_preview": "<!DOCTYPE html><html id=\"\u200b\" lang=\"en-US\"><head><meta charSet=\"utf-8\"/><meta name=\"request-country\" content=\"US\"/><meta name=\"edge-experiment-treatments\" content=\"wpp_react_homepage_aa.control.ursula.047a9260-71da-b702-8d14-21cb6b515499.a.s,wpp_acquisition_mobile_sticky_hamburger.control.ursula.3a948bb1-8ffc-705c-8640-4d8a3e0e762d.m.s,wpp_console_mvp_nav_cta.treatment.ursula.841e016d-818e-533c-a520-ba7f7701f519.m.s\"/><meta name=\"experiment-treatments\" content=\"wpp_react_homepage_aa.control.ursula.62fd4e9c-88a8-4d0d-9306-b4581379ad8f.a.s,wpp_acquisition_mobile_sticky_hamburger.control.ursula.a094fa03-c042-48b7-b5b3-4af73d60c711.m.s,wpp_console_mvp_nav_cta.treatment.ursula.20c79696-50ac-4a1a-8eac-a006c15f65e3.m.s\"/><meta name=\"experiment-token\" content=\"b057adf6c5115d23b9dae9cd960f5a11e4a9ad16\"/><link rel=\"preload\" href=\"https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/media/Sohne.cb178166.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"anonymous\"/><link rel=\"preload\" href=\"https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/media/SourceCodePro-Medium.f5ba3e6a.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"anonymous\"/><title>Stripe | Financial Infrastructure to Grow Your Revenue</title><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"/><link rel=\"preconnect\" href=\"https://q.stripe.com\" crossorigin=\"\"/><link rel=\"dns-prefetch\" href=\"https://q.stripe.com\"/><link rel=\"preconnect\" href=\"https://r.stripe.com\" crossorigin=\"\"/><"
+  },
+  {
+    "site": "linear",
+    "url": "https://linear.app",
+    "why": "Best dark-mode SaaS UI. Keyboard-first, command palette, smooth transitions.",
+    "date": "2026-05-07",
+    "content_type": "html",
+    "css_animations": [
+      {
+        "type": "keyframes",
+        "name": "grid-dot-0-0-agent",
+        "body": "0%{opacity:1;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-0-1-agent",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-0-2-agent",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-0-3-agent",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-0-4-agent",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-1-0-agent",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-1-1-agent",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-1-2-agent",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-1-3-agent",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-1-4-agent",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-2-0-agent",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-2-1-agent",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-2-2-agent",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-2-3-agent",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-2-4-agent",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-3-0-agent",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-3-1-agent",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-3-2-agent",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-3-3-agent",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-3-4-agent",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-4-0-agent",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-4-1-agent",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-4-2-agent",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-4-3-agent",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-4-4-agent",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-0-0-upDown",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-0-1-upDown",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-0-2-upDown",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-0-3-upDown",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-0-4-upDown",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-1-0-upDown",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-1-1-upDown",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-1-2-upDown",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-1-3-upDown",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-1-4-upDown",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-2-0-upDown",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-2-1-upDown",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-2-2-upDown",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-2-3-upDown",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-2-4-upDown",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-3-0-upDown",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-3-1-upDown",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-3-2-upDown",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-3-3-upDown",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-3-4-upDown",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-4-0-upDown",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-4-1-upDown",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-4-2-upDown",
+        "body": "0%{opacity:1;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-4-3-upDown",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-4-4-upDown",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-0-0-pong",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-0-1-pong",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-0-2-pong",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-0-3-pong",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-0-4-pong",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-1-0-pong",
+        "body": "0%{opacity:1;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-1-1-pong",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-1-2-pong",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-1-3-pong",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-1-4-pong",
+        "body": "0%{opacity:1;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-2-0-pong",
+        "body": "0%{opacity:1;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-2-1-pong",
+        "body": "0%{opacity:1;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-2-2-pong",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "keyframes",
+        "name": "grid-dot-2-3-pong",
+        "body": "0%{opacity:0.3;"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-0-0-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-0-0-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-0-1-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-0-1-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-0-2-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-0-2-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-0-3-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-0-3-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-0-4-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-0-4-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-1-0-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-1-0-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-1-1-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-1-1-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-1-2-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-1-2-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-1-3-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-1-3-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-1-4-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-1-4-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-2-0-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-2-0-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-2-1-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-2-1-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-2-2-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-2-2-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-2-3-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-2-3-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-2-4-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-2-4-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-3-0-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-3-0-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-3-1-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-3-1-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-3-2-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-3-2-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-3-3-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-3-3-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-3-4-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-3-4-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-4-0-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-4-0-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-4-1-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-4-1-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-4-2-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-4-2-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-4-3-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-4-3-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-4-4-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-4-4-agent 3200ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-0-0-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-0-0-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-0-1-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-0-1-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-0-2-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-0-2-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-0-3-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-0-3-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-0-4-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-0-4-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-1-0-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-1-0-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-1-1-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-1-1-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-1-2-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-1-2-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-1-3-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-1-3-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-1-4-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-1-4-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-2-0-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-2-0-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-2-1-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-2-1-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-2-2-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-2-2-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-2-3-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-2-3-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-2-4-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-2-4-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-3-0-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-3-0-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-3-1-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-3-1-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-3-2-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-3-2-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-3-3-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-3-3-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-3-4-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-3-4-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-4-0-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-4-0-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-4-1-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-4-1-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-4-2-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-4-2-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-4-3-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-4-3-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-4-4-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-4-4-upDown 2800ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-0-0-pong 1600ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-0-0-pong 1600ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-0-1-pong 1600ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-0-1-pong 1600ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-0-2-pong 1600ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-0-2-pong 1600ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-0-3-pong 1600ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-0-3-pong 1600ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-0-4-pong 1600ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-0-4-pong 1600ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-1-0-pong 1600ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-1-0-pong 1600ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-1-1-pong 1600ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-1-1-pong 1600ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-1-2-pong 1600ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-1-2-pong 1600ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-1-3-pong 1600ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-1-3-pong 1600ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-1-4-pong 1600ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-1-4-pong 1600ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-2-0-pong 1600ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-2-0-pong 1600ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-2-1-pong 1600ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-2-1-pong 1600ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-2-2-pong 1600ms steps(1, end) infinite"
+      },
+      {
+        "type": "animation",
+        "value": "grid-dot-2-2-pong 1600ms steps(1, end) infinite"
+      }
+    ],
+    "gradients": [],
+    "colors": {
+      "hex": [
+        "#08090a"
+      ],
+      "css_vars": []
+    },
+    "typography": {
+      "fonts": [
+        "var(--font-monospace)"
+      ],
+      "sizes": [
+        "var(--title-8-size)",
+        "var(--title-7-size)",
+        "var(--title-5-size)",
+        "0.6em",
+        "0.9em",
+        "var(--text-regular-size)",
+        "var(--text-mini-size)",
+        "var(--text-small-size)",
+        "var(--text-micro-size)",
+        "var(--title-2-size)"
+      ],
+      "weights": [
+        "var(--font-weight-medium)",
+        "var(--font-weight-semibold)",
+        "var(--font-weight-light)",
+        "var(--font-weight-normal)"
+      ]
+    },
+    "gsap": [],
+    "threejs": [],
+    "components": [
+      {
+        "type": "card",
+        "count": 1
+      },
+      {
+        "type": "grid",
+        "count": 317
+      },
+      {
+        "type": "feature",
+        "count": 8
+      }
+    ],
+    "motion": {
+      "scroll": [],
+      "hover": [],
+      "load": [],
+      "micro": []
+    },
+    "layout": {
+      "grids": [],
+      "flex": [],
+      "breakpoints": [
+        "@media (max-width: 1024px)",
+        "@media (max-width: 640px)",
+        "@media (max-width: 1280px)",
+        "@media (max-width: 768px)"
+      ],
+      "spacing": []
+    },
+    "techniques": [],
+    "content_preview": "<!DOCTYPE html><html lang=\"en\" data-theme=\"dark\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, height=device-height, initial-scale=1, viewport-fit=cover\"/><link rel=\"preload\" href=\"https://static.linear.app/fonts/InterVariable.woff2?v=4.1\" as=\"font\" crossorigin=\"anonymous\" type=\"font/woff2\"/><link rel=\"preload\" as=\"image\" href=\"https://webassets.linear.app/images/ornj730p/production/f79251b06e9edeeacbf2875384defe629e000b3c-352x352.png?w=72&amp;q=95&amp;auto=format&amp;dpr=2\"/><link rel=\"stylesheet\" href=\"https://static.linear.app/web/_next/static/css/e3d60b2264302e04.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"https://static.linear.app/web/_next/static/css/16bcbc0924f6eaf4.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"https://static.linear.app/web/_next/static/css/ab7b7c73a2ddc363.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"https://static.linear.app/web/_next/static/css/0fe984a073147160.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"https://static.linear.app/web/_next/static/css/0195fdb6fe77c9da.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"https://static.linear.app/web/_next/static/css/270a258b0f93f6a1.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"https://static.linear.app/web/_next/static/css/b0b443a6054874c7.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"https://static.linear.app/web/_next/static/css/7465c5ba61d54742.css\" data-precedence=\"next\"/><link rel"
+  },
+  {
+    "site": "vercel",
+    "url": "https://vercel.com",
+    "why": "Developer platform. Gradient mesh, deployment animations, DX-focused.",
+    "date": "2026-05-07",
+    "content_type": "html",
+    "css_animations": [],
+    "gradients": [],
+    "colors": {
+      "hex": [
+        "#fafafa",
+        "#00dc82",
+        "#ff3e00",
+        "#0096ff",
+        "#ff1e56",
+        "#e5484d",
+        "#52aeff",
+        "#45dec4"
+      ],
+      "css_vars": []
+    },
+    "typography": {
+      "fonts": [],
+      "sizes": [],
+      "weights": []
+    },
+    "gsap": [],
+    "threejs": [],
+    "components": [
+      {
+        "type": "card",
+        "count": 1
+      },
+      {
+        "type": "nav",
+        "count": 6
+      },
+      {
+        "type": "header",
+        "count": 19
+      },
+      {
+        "type": "form",
+        "count": 1
+      },
+      {
+        "type": "grid",
+        "count": 39
+      },
+      {
+        "type": "hero",
+        "count": 13
+      },
+      {
+        "type": "pricing",
+        "count": 2
+      },
+      {
+        "type": "feature",
+        "count": 37
+      }
+    ],
+    "motion": {
+      "scroll": [],
+      "hover": [],
+      "load": [
+        "onload"
+      ],
+      "micro": []
+    },
+    "layout": {
+      "grids": [],
+      "flex": [],
+      "breakpoints": [
+        "@media (max-width: 1150px)",
+        "@media (min-width: 1151px)"
+      ],
+      "spacing": [
+        "0px"
+      ]
+    },
+    "techniques": [
+      "glassmorphism",
+      "horizontal_scroll",
+      "masonry",
+      "sticky_header",
+      "micro_interaction",
+      "dark_mode",
+      "canvas_animation",
+      "container_queries"
+    ],
+    "content_preview": "<!DOCTYPE html><html data-dpl-id=\"dpl_BRxwdU4rRZXN4Rpfo7ER2UNDCtqS\" class=\"geist_mono_98cac566-module__bcNCwW__className geist_1620151b-module__2VSEvG__className geist_mono_98cac566-module__bcNCwW__variable geist_1620151b-module__2VSEvG__variable\" lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\"/><link rel=\"preload\" href=\"/vc-ap-vercel-marketing/_next/static/media/797e433ab948586e.p.3f30ggp2vw8zj.woff2?dpl=dpl_BRxwdU4rRZXN4Rpfo7ER2UNDCtqS\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"/><link rel=\"preload\" href=\"/vc-ap-vercel-marketing/_next/static/media/GeistPixel_Circle.p.0jixsyww9kd4y.woff2?dpl=dpl_BRxwdU4rRZXN4Rpfo7ER2UNDCtqS\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"/><link rel=\"preload\" href=\"/vc-ap-vercel-marketing/_next/static/media/GeistPixel_Grid.p.30wdobjl9hgxl.woff2?dpl=dpl_BRxwdU4rRZXN4Rpfo7ER2UNDCtqS\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"/><link rel=\"preload\" href=\"/vc-ap-vercel-marketing/_next/static/media/GeistPixel_Line.p.0rlph12vacpf4.woff2?dpl=dpl_BRxwdU4rRZXN4Rpfo7ER2UNDCtqS\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"/><link rel=\"preload\" href=\"/vc-ap-vercel-marketing/_next/static/media/GeistPixel_Square.p.2k-0ab8oywfv4.woff2?dpl=dpl_BRxwdU4rRZXN4Rpfo7ER2UNDCtqS\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"/><link rel=\"preload\" href=\"/vc-ap-vercel-marketing/_next/static/media/GeistPixel_Triangle.p.0qs0n6zg5c5u1.woff2?dpl=dpl_BRxwdU4rRZXN4Rpfo7ER2UNDCtqS\" as=\"font\" crossorigin=\"\" typ"
+  },
+  {
+    "site": "raycast",
+    "url": "https://raycast.com",
+    "why": "Best macOS-style web. Command palette UI, extension store, onboarding.",
+    "date": "2026-05-07",
+    "content_type": "html",
+    "css_animations": [],
+    "gradients": [
+      {
+        "type": "gradient",
+        "value": "linear-gradient(138deg, rgba(32, 35, 91, 0.70) 22.00%, rgba(7, 9, 33, 0.70) 82.00%)"
+      },
+      {
+        "type": "gradient",
+        "value": "radial-gradient(94.21% 78.40% at 50.00% 29.91%, rgba(43, 94, 180, 0.70), rgba(13, 16, 35, 0.42))"
+      },
+      {
+        "type": "gradient",
+        "value": "radial-gradient(30.00% 40.00% at 52.00% 36.91%, rgba(13, 110, 48, 1.00), rgba(8, 53, 24, 1.00))"
+      },
+      {
+        "type": "gradient",
+        "value": "radial-gradient(94.21% 78.40% at 50.00% 29.91%, rgba(39, 61, 180, 0.70), rgba(15, 9, 38, 0.40))"
+      },
+      {
+        "type": "gradient",
+        "value": "radial-gradient(84.35% 70.19% at 50.00% 38.11%, rgba(2, 96, 101, 0.57), rgba(5, 136, 178, 0.06))"
+      },
+      {
+        "type": "gradient",
+        "value": "radial-gradient(90.35% 49.25% at 50.00% 59.06%, rgba(2, 61, 114, 0.70), rgba(5, 11, 28, 0.42))"
+      },
+      {
+        "type": "gradient",
+        "value": "radial-gradient(84.60% 73.49% at 50.00% 26.51%, rgba(4, 63, 150, 0.70), rgba(6, 18, 37, 0.25))"
+      },
+      {
+        "type": "gradient",
+        "value": "radial-gradient(99.74% 100.00% at 50.00% 0.00%, rgba(74, 21, 75, 0.70), rgba(29, 5, 29, 0.42))"
+      },
+      {
+        "type": "gradient",
+        "value": "radial-gradient(94.21% 78.40% at 50.00% 29.91%, rgba(4, 63, 150, 0.70), rgba(5, 9, 29, 0.42))"
+      },
+      {
+        "type": "gradient",
+        "value": "radial-gradient(94.21% 78.40% at 50.00% 29.91%, rgba(4, 62, 150, 0.70), rgba(16, 0, 43, 0.16))"
+      },
+      {
+        "type": "gradient",
+        "value": "radial-gradient(86.88% 75.47% at 50.00% 24.53%, rgba(82, 48, 145, 0.70), rgba(26, 11, 51, 0.14))"
+      },
+      {
+        "type": "gradient",
+        "value": "radial-gradient(126.42% 76.60% at 50.00% 32.26%, rgba(84, 95, 102, 0.70), rgba(0, 36, 69, 0.13))"
+      },
+      {
+        "type": "gradient",
+        "value": "radial-gradient(126.42% 76.60% at 50.00% 32.26%, rgba(84, 95, 102, 0.70), rgba(0, 36, 69, 0.13))"
+      },
+      {
+        "type": "gradient",
+        "value": "radial-gradient(84.60% 73.49% at 50.00% 26.51%, rgba(4, 63, 150, 0.70), rgba(6, 18, 37, 0.25))"
+      },
+      {
+        "type": "gradient",
+        "value": "radial-gradient(86.88% 75.47% at 50.00% 24.53%, rgba(82, 48, 145, 0.70), rgba(26, 11, 51, 0.14))"
+      },
+      {
+        "type": "gradient",
+        "value": "radial-gradient(84.60% 73.49% at 50.00% 26.51%, rgba(4, 63, 150, 0.70), rgba(6, 18, 37, 0.25))"
+      },
+      {
+        "type": "gradient",
+        "value": "radial-gradient(181.77% 70.19% at 50.00% 38.11%, rgba(3, 91, 155, 0.70), rgba(0, 69, 150, 0.03))"
+      }
+    ],
+    "colors": {
+      "hex": [
+        "#ff6363",
+        "#e6e6e6",
+        "#d8d8d8",
+        "#eca5a7",
+        "#581d27",
+        "#190e14",
+        "#7b7b7b",
+        "#ffa2a2",
+        "#ffa1a1",
+        "#474349",
+        "#0e0315",
+        "#ff7575",
+        "#d72a2a"
+      ],
+      "css_vars": []
+    },
+    "typography": {
+      "fonts": [],
+      "sizes": [
+        "23.75px\">esc</div></div><div class=\"Keyboard_key__QsvDd\" style=\"opacity:0.2\"><div class=\"Keyboard_alt__YrkyB Keyboard_alignCenter__SG2yx\" style=\"font-size:24px\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21\" height=\"21\" fill=\"none\" style=\"margin-top:15.5px\"><path fill=\"#D8D8D8\" d=\"M10.147 15.405q1.396 0 2.56-.698a5.35 5.35 0 0 0 1.862-1.862 4.9 4.9 0 0 0 .698-2.56q0-1.396-.698-2.56a5.35 5.35 0 0 0-1.862-1.861 4.9 4.9 0 0 0-2.56-.698q-1.396 0-2.56.698a5.35 5.35 0 0 0-1.861 1.861 4.9 4.9 0 0 0-.698 2.56q0 1.396.698 2.56a5.35 5.35 0 0 0 1.862 1.861 4.9 4.9 0 0 0 2.56.699m0-1.698q-.93 0-1.71-.466a3.54 3.54 0 0 1-1.246-1.245 3.3 3.3 0 0 1-.465-1.71q0-.932.465-1.705.465-.774 1.246-1.246a3.24 3.24 0 0 1 1.71-.471q.93 0 1.711.465.78.466 1.245 1.245t.466 1.711q0 .93-.466 1.71-.465.78-1.245 1.246t-1.71.466m6.202-8.39q.515 0 .874-.365.358-.365.358-.868 0-.516-.358-.874a1.2 1.2 0 0 0-.874-.359q-.504 0-.868.359a1.18 1.18 0 0 0-.365.874q0 .503.365.868.364.365.868.365m0 12.402q.515 0 .874-.358a1.2 1.2 0 0 0 .358-.875q0-.502-.358-.868a1.18 1.18 0 0 0-.874-.364q-.504 0-.868.364a1.19 1.19 0 0 0-.365.868q0 .516.365.875.364.358.868.358M3.946 5.317q.504 0 .868-.365.365-.365.365-.868a1.18 1.18 0 0 0-.365-.874 1.2 1.2 0 0 0-.868-.359q-.516 0-.874.359a1.2 1.2 0 0 0-.359.874q0 .503.359.868.358.365.874.365m0 12.402q.504 0 .868-.358a1.18 1.18 0 0 0 .365-.875q0-.502-.365-.868a1.19 1.19 0 0 0-.868-.364 1.18 1.18 0 0 0-.874.364 1.2 1.2 0 0 0-.359.868q0 .516.359.875.358.358.874.358m14.969-6.201q.515 0 .874-.365.358-.364.358-.868 0-.503-.358-.868a1.18 1.18 0 0 0-.874-.365q-.504 0-.868.365a1.19 1.19 0 0 0-.365.868q0 .504.365.868.364.365.868.365m-8.768 8.767q.504 0 .868-.365.365-.364.365-.868 0-.503-.365-.867a1.19 1.19 0 0 0-.868-.365q-.502 0-.868.364a1.19 1.19 0 0 0-.364.868q0 .504.364.868.366.366.868.365m0-17.534q.504 0 .868-.365.365-.365.365-.868 0-.504-.365-.868a1.19 1.19 0 0 0-.868-.365q-.502 0-.868.365a1.19 1.19 0 0 0-.364.868q0 .503.364.868.366.365.868.365M1.38 11.518q.503 0 .868-.365.365-.364.365-.868 0-.503-.365-.868a1.19 1.19 0 0 0-.868-.365q-.503 0-.868.365a1.19 1.19 0 0 0-.365.868q0 .504.365.868.365.365.868.365\" style=\"fill:color(display-p3 .8458 .8458 .8458)",
+        "16px\">F1</div></div><div class=\"Keyboard_key__QsvDd\" style=\"opacity:0.2\"><div class=\"Keyboard_alt__YrkyB Keyboard_alignCenter__SG2yx\" style=\"font-size:24px\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21\" height=\"21\" fill=\"none\" style=\"margin-top:15.5px\"><path fill=\"#D8D8D8\" d=\"M10.197 15.057a4.54 4.54 0 0 0 2.38-.649 5 5 0 0 0 1.73-1.731q.65-1.082.65-2.392t-.65-2.392a5 5 0 0 0-1.73-1.73 4.54 4.54 0 0 0-2.38-.65 4.56 4.56 0 0 0-2.392.65 5 5 0 0 0-1.731 1.73 4.56 4.56 0 0 0-.65 2.392q0 1.31.65 2.392a5 5 0 0 0 1.73 1.731q1.083.65 2.393.65m0-1.59a3.04 3.04 0 0 1-1.597-.433 3.3 3.3 0 0 1-1.152-1.158 3.05 3.05 0 0 1-.433-1.59q0-.867.433-1.591A3.3 3.3 0 0 1 8.6 7.537a3.04 3.04 0 0 1 1.597-.433q.866 0 1.584.433.72.432 1.152 1.158.433.725.433 1.59t-.433 1.59a3.3 3.3 0 0 1-1.152 1.159 3 3 0 0 1-1.584.432m4.432-8.901a.87.87 0 0 0-.257.637q0 .38.257.65.27.257.65.263a.87.87 0 0 0 .649-.264L17.26 4.52a.91.91 0 0 0 .257-.655.87.87 0 0 0-.257-.643.9.9 0 0 0-.65-.257.87.87 0 0 0-.637.257zm1.287 10.164a.87.87 0 0 0-.638-.258.9.9 0 0 0-.649.258.9.9 0 0 0-.257.649q0 .38.257.637l1.345 1.345a.85.85 0 0 0 .638.252.93.93 0 0 0 .649-.264.87.87 0 0 0 .257-.637.9.9 0 0 0-.257-.65zm-4.807 2.76a.88.88 0 0 0-.27-.638.87.87 0 0 0-.642-.274.87.87 0 0 0-.644.274.88.88 0 0 0-.269.638v1.883q0 .363.27.637.268.275.643.275t.643-.275a.88.88 0 0 0 .269-.637zm0-16.293a.88.88 0 0 0-.27-.637.87.87 0 0 0-.642-.275.87.87 0 0 0-.644.275.88.88 0 0 0-.269.637V3.08q0 .363.27.638.268.275.643.275t.643-.275a.88.88 0 0 0 .269-.638zm8.14 10q.363 0 .638-.269a.87.87 0 0 0 .274-.643.87.87 0 0 0-.274-.643.88.88 0 0 0-.638-.27h-1.871q-.375 0-.643.27a.88.88 0 0 0-.27.643q0 .375.27.643.268.27.643.27zM4.466 5.852a.87.87 0 0 0 .637.258.87.87 0 0 0 .637-.258.85.85 0 0 0 .27-.643.87.87 0 0 0-.258-.643L4.42 3.22a.83.83 0 0 0-.632-.257.87.87 0 0 0-.643.257.85.85 0 0 0-.269.643q0 .386.257.643zm-3.322 3.52q-.375 0-.643.27a.88.88 0 0 0-.27.643q0 .375.27.643.268.27.643.27h1.86q.375 0 .643-.27a.88.88 0 0 0 .269-.643q0-.375-.27-.643a.88.88 0 0 0-.642-.27zm1.988 6.68a.89.89 0 0 0-.269.648q0 .38.258.638.257.257.643.263a.85.85 0 0 0 .643-.252l1.333-1.333a.85.85 0 0 0 .27-.637.9.9 0 0 0-.258-.65.87.87 0 0 0-.643-.257.87.87 0 0 0-.643.258z\" style=\"fill:color(display-p3 .8458 .8458 .8458)",
+        "16px\">F2</div></div><div class=\"Keyboard_key__QsvDd\" style=\"opacity:0.2\"><div class=\"Keyboard_alt__YrkyB Keyboard_alignCenter__SG2yx\" style=\"font-size:24px\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"21\" fill=\"none\" style=\"margin-top:15.5px\"><path fill=\"#D8D8D8\" d=\"M21.67 18.986h6.855q2.723 0 2.723-2.681V4.473q0-2.68-2.723-2.681H21.67q-2.71 0-2.71 2.681v11.832q0 2.68 2.71 2.68M2.968 9.89h9.744q2.723 0 2.723-2.681V2.967q0-2.682-2.723-2.682H2.969Q.246.285.246 2.967V7.21q0 2.68 2.723 2.681m18.853 7.243q-1.01 0-1.01-1.037V4.68q0-1.022 1.01-1.022h6.551q1.01 0 1.009 1.022v11.417q0 1.037-1.009 1.037zM5.733 20.285h8.307q2.723 0 2.723-2.681v-2.792q0-2.682-2.723-2.682H5.733q-2.723 0-2.723 2.682v2.792q0 2.68 2.723 2.681M3.107 8.04q-.996 0-.995-1.037V3.174q0-1.023.995-1.023h9.44q1.023 0 1.023 1.023v3.828q0 1.037-1.023 1.037zM5.87 18.433q-.995 0-.995-1.037V15.02q0-1.037.995-1.037h8.017q1.008 0 1.009 1.037v2.377q0 1.037-1.01 1.037z\" style=\"fill:color(display-p3 .8458 .8458 .8458)",
+        "16px\">F3</div></div><div class=\"Keyboard_key__QsvDd\" style=\"opacity:0.2\"><div class=\"Keyboard_alt__YrkyB Keyboard_alignCenter__SG2yx\" style=\"font-size:24px\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21\" height=\"21\" fill=\"none\" style=\"margin-top:15.5px\"><path fill=\"#D8D8D8\" d=\"M.332 8.444q0 1.68.635 3.162a8.23 8.23 0 0 0 4.356 4.356 8 8 0 0 0 3.168.628q1.297 0 2.476-.384a8.2 8.2 0 0 0 2.168-1.078l4.773 4.785q.204.193.449.282.243.09.5.09.564 0 .924-.372t.359-.936a1.34 1.34 0 0 0-.36-.924l-4.746-4.76a8.1 8.1 0 0 0 1.18-2.25 8 8 0 0 0 .424-2.599 7.9 7.9 0 0 0-.636-3.168 8.3 8.3 0 0 0-1.75-2.598A8.2 8.2 0 0 0 11.653.92 7.9 7.9 0 0 0 8.49.285 7.9 7.9 0 0 0 5.323.92a8.3 8.3 0 0 0-2.598 1.758A8.3 8.3 0 0 0 .967 5.276a7.9 7.9 0 0 0-.635 3.168m1.976 0A6.11 6.11 0 0 1 4.11 4.07a6.3 6.3 0 0 1 1.976-1.328A6 6 0 0 1 8.49 2.26q1.283 0 2.4.48 1.115.482 1.969 1.329a6.2 6.2 0 0 1 1.334 1.969q.48 1.122.48 2.405t-.48 2.4-1.335 1.968a6.3 6.3 0 0 1-1.969 1.335 6 6 0 0 1-2.399.48q-1.283 0-2.405-.48a6.25 6.25 0 0 1-3.303-3.304 6.1 6.1 0 0 1-.475-2.399\" style=\"fill:color(display-p3 .8458 .8458 .8458)",
+        "16px\">F4</div></div><div class=\"Keyboard_key__QsvDd\" style=\"opacity:0.2\"><div class=\"Keyboard_alt__YrkyB Keyboard_alignCenter__SG2yx\" style=\"font-size:24px\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"17\" height=\"25\" fill=\"none\" style=\"margin-top:15.5px\"><path fill=\"#D8D8D8\" d=\"M4.186 11.689q0 1.335.533 2.35a3.94 3.94 0 0 0 1.477 1.583q.944.57 2.18.569 1.235 0 2.173-.569a4 4 0 0 0 1.476-1.583q.54-1.015.54-2.35V4.787q0-1.335-.54-2.35A4 4 0 0 0 10.55.853Q9.61.286 8.376.285q-1.235 0-2.18.568a3.94 3.94 0 0 0-1.477 1.584q-.533 1.015-.533 2.35zm-3.962.383q0 2.23.91 3.955a7.27 7.27 0 0 0 2.527 2.77q1.62 1.043 3.749 1.256v2.315H3.405a.94.94 0 0 0-.681.277.9.9 0 0 0-.284.675q0 .412.284.688.284.277.681.277h9.941q.398 0 .675-.277a.94.94 0 0 0 .277-.688.92.92 0 0 0-.277-.675.92.92 0 0 0-.675-.277H9.327v-2.315q2.13-.212 3.756-1.257a7.25 7.25 0 0 0 2.535-2.769q.91-1.726.91-3.955v-2.3a.92.92 0 0 0-.285-.69.94.94 0 0 0-.681-.276.92.92 0 0 0-.675.277.94.94 0 0 0-.277.689v2.215q0 1.904-.774 3.33a5.5 5.5 0 0 1-2.173 2.215q-1.398.789-3.287.789t-3.288-.789a5.5 5.5 0 0 1-2.173-2.215q-.774-1.427-.774-3.33V9.772a.94.94 0 0 0-.277-.69.94.94 0 0 0-.688-.276.92.92 0 0 0-.675.277.94.94 0 0 0-.277.689zm5.88-.383V4.787q0-1.221.624-1.917.625-.696 1.648-.696 1.008 0 1.64.696t.632 1.917v6.902q0 1.221-.632 1.917t-1.64.696q-1.023 0-1.648-.696t-.625-1.917\" style=\"fill:color(display-p3 .8458 .8458 .8458)",
+        "16px\">F5</div></div><div class=\"Keyboard_key__QsvDd\" style=\"opacity:0.2\"><div class=\"Keyboard_alt__YrkyB Keyboard_alignCenter__SG2yx\" style=\"font-size:24px\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"17\" height=\"25\" fill=\"none\" style=\"margin-top:15.5px\"><path fill=\"#D8D8D8\" d=\"M4.186 11.689q0 1.335.533 2.35a3.94 3.94 0 0 0 1.477 1.583q.944.57 2.18.569 1.235 0 2.173-.569a4 4 0 0 0 1.476-1.583q.54-1.015.54-2.35V4.787q0-1.335-.54-2.35A4 4 0 0 0 10.55.853Q9.61.286 8.376.285q-1.235 0-2.18.568a3.94 3.94 0 0 0-1.477 1.584q-.533 1.015-.533 2.35zm-3.962.383q0 2.23.91 3.955a7.27 7.27 0 0 0 2.527 2.77q1.62 1.043 3.749 1.256v2.315H3.405a.94.94 0 0 0-.681.277.9.9 0 0 0-.284.675q0 .412.284.688.284.277.681.277h9.941q.398 0 .675-.277a.94.94 0 0 0 .277-.688.92.92 0 0 0-.277-.675.92.92 0 0 0-.675-.277H9.327v-2.315q2.13-.212 3.756-1.257a7.25 7.25 0 0 0 2.535-2.769q.91-1.726.91-3.955v-2.3a.92.92 0 0 0-.285-.69.94.94 0 0 0-.681-.276.92.92 0 0 0-.675.277.94.94 0 0 0-.277.689v2.215q0 1.904-.774 3.33a5.5 5.5 0 0 1-2.173 2.215q-1.398.789-3.287.789t-3.288-.789a5.5 5.5 0 0 1-2.173-2.215q-.774-1.427-.774-3.33V9.772a.94.94 0 0 0-.277-.69.94.94 0 0 0-.688-.276.92.92 0 0 0-.675.277.94.94 0 0 0-.277.689zm5.88-.383V4.787q0-1.221.624-1.917.625-.696 1.648-.696 1.008 0 1.64.696t.632 1.917v6.902q0 1.221-.632 1.917t-1.64.696q-1.023 0-1.648-.696t-.625-1.917\" style=\"fill:color(display-p3 .8458 .8458 .8458)",
+        "16px\">F6</div></div><div class=\"Keyboard_key__QsvDd\" style=\"opacity:0.2\"><div class=\"Keyboard_alt__YrkyB Keyboard_alignCenter__SG2yx\" style=\"font-size:24px\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"17\" height=\"25\" fill=\"none\" style=\"margin-top:15.5px\"><path fill=\"#D8D8D8\" d=\"M4.186 11.689q0 1.335.533 2.35a3.94 3.94 0 0 0 1.477 1.583q.944.57 2.18.569 1.235 0 2.173-.569a4 4 0 0 0 1.476-1.583q.54-1.015.54-2.35V4.787q0-1.335-.54-2.35A4 4 0 0 0 10.55.853Q9.61.286 8.376.285q-1.235 0-2.18.568a3.94 3.94 0 0 0-1.477 1.584q-.533 1.015-.533 2.35zm-3.962.383q0 2.23.91 3.955a7.27 7.27 0 0 0 2.527 2.77q1.62 1.043 3.749 1.256v2.315H3.405a.94.94 0 0 0-.681.277.9.9 0 0 0-.284.675q0 .412.284.688.284.277.681.277h9.941q.398 0 .675-.277a.94.94 0 0 0 .277-.688.92.92 0 0 0-.277-.675.92.92 0 0 0-.675-.277H9.327v-2.315q2.13-.212 3.756-1.257a7.25 7.25 0 0 0 2.535-2.769q.91-1.726.91-3.955v-2.3a.92.92 0 0 0-.285-.69.94.94 0 0 0-.681-.276.92.92 0 0 0-.675.277.94.94 0 0 0-.277.689v2.215q0 1.904-.774 3.33a5.5 5.5 0 0 1-2.173 2.215q-1.398.789-3.287.789t-3.288-.789a5.5 5.5 0 0 1-2.173-2.215q-.774-1.427-.774-3.33V9.772a.94.94 0 0 0-.277-.69.94.94 0 0 0-.688-.276.92.92 0 0 0-.675.277.94.94 0 0 0-.277.689zm5.88-.383V4.787q0-1.221.624-1.917.625-.696 1.648-.696 1.008 0 1.64.696t.632 1.917v6.902q0 1.221-.632 1.917t-1.64.696q-1.023 0-1.648-.696t-.625-1.917\" style=\"fill:color(display-p3 .8458 .8458 .8458)",
+        "16px\">F7</div></div><div class=\"Keyboard_key__QsvDd\" style=\"opacity:0.2\"><div class=\"Keyboard_alt__YrkyB Keyboard_alignCenter__SG2yx\" style=\"font-size:24px\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"17\" height=\"25\" fill=\"none\" style=\"margin-top:15.5px\"><path fill=\"#D8D8D8\" d=\"M4.186 11.689q0 1.335.533 2.35a3.94 3.94 0 0 0 1.477 1.583q.944.57 2.18.569 1.235 0 2.173-.569a4 4 0 0 0 1.476-1.583q.54-1.015.54-2.35V4.787q0-1.335-.54-2.35A4 4 0 0 0 10.55.853Q9.61.286 8.376.285q-1.235 0-2.18.568a3.94 3.94 0 0 0-1.477 1.584q-.533 1.015-.533 2.35zm-3.962.383q0 2.23.91 3.955a7.27 7.27 0 0 0 2.527 2.77q1.62 1.043 3.749 1.256v2.315H3.405a.94.94 0 0 0-.681.277.9.9 0 0 0-.284.675q0 .412.284.688.284.277.681.277h9.941q.398 0 .675-.277a.94.94 0 0 0 .277-.688.92.92 0 0 0-.277-.675.92.92 0 0 0-.675-.277H9.327v-2.315q2.13-.212 3.756-1.257a7.25 7.25 0 0 0 2.535-2.769q.91-1.726.91-3.955v-2.3a.92.92 0 0 0-.285-.69.94.94 0 0 0-.681-.276.92.92 0 0 0-.675.277.94.94 0 0 0-.277.689v2.215q0 1.904-.774 3.33a5.5 5.5 0 0 1-2.173 2.215q-1.398.789-3.287.789t-3.288-.789a5.5 5.5 0 0 1-2.173-2.215q-.774-1.427-.774-3.33V9.772a.94.94 0 0 0-.277-.69.94.94 0 0 0-.688-.276.92.92 0 0 0-.675.277.94.94 0 0 0-.277.689zm5.88-.383V4.787q0-1.221.624-1.917.625-.696 1.648-.696 1.008 0 1.64.696t.632 1.917v6.902q0 1.221-.632 1.917t-1.64.696q-1.023 0-1.648-.696t-.625-1.917\" style=\"fill:color(display-p3 .8458 .8458 .8458)",
+        "16px\">F8</div></div><div class=\"Keyboard_key__QsvDd\" style=\"opacity:0.2\"><div class=\"Keyboard_alt__YrkyB Keyboard_alignCenter__SG2yx\" style=\"font-size:24px\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"17\" height=\"25\" fill=\"none\" style=\"margin-top:15.5px\"><path fill=\"#D8D8D8\" d=\"M4.186 11.689q0 1.335.533 2.35a3.94 3.94 0 0 0 1.477 1.583q.944.57 2.18.569 1.235 0 2.173-.569a4 4 0 0 0 1.476-1.583q.54-1.015.54-2.35V4.787q0-1.335-.54-2.35A4 4 0 0 0 10.55.853Q9.61.286 8.376.285q-1.235 0-2.18.568a3.94 3.94 0 0 0-1.477 1.584q-.533 1.015-.533 2.35zm-3.962.383q0 2.23.91 3.955a7.27 7.27 0 0 0 2.527 2.77q1.62 1.043 3.749 1.256v2.315H3.405a.94.94 0 0 0-.681.277.9.9 0 0 0-.284.675q0 .412.284.688.284.277.681.277h9.941q.398 0 .675-.277a.94.94 0 0 0 .277-.688.92.92 0 0 0-.277-.675.92.92 0 0 0-.675-.277H9.327v-2.315q2.13-.212 3.756-1.257a7.25 7.25 0 0 0 2.535-2.769q.91-1.726.91-3.955v-2.3a.92.92 0 0 0-.285-.69.94.94 0 0 0-.681-.276.92.92 0 0 0-.675.277.94.94 0 0 0-.277.689v2.215q0 1.904-.774 3.33a5.5 5.5 0 0 1-2.173 2.215q-1.398.789-3.287.789t-3.288-.789a5.5 5.5 0 0 1-2.173-2.215q-.774-1.427-.774-3.33V9.772a.94.94 0 0 0-.277-.69.94.94 0 0 0-.688-.276.92.92 0 0 0-.675.277.94.94 0 0 0-.277.689zm5.88-.383V4.787q0-1.221.624-1.917.625-.696 1.648-.696 1.008 0 1.64.696t.632 1.917v6.902q0 1.221-.632 1.917t-1.64.696q-1.023 0-1.648-.696t-.625-1.917\" style=\"fill:color(display-p3 .8458 .8458 .8458)",
+        "16px\">F9</div></div><div class=\"Keyboard_key__QsvDd\" style=\"opacity:0.2\"><div class=\"Keyboard_alt__YrkyB Keyboard_alignCenter__SG2yx\" style=\"font-size:24px\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"17\" height=\"25\" fill=\"none\" style=\"margin-top:15.5px\"><path fill=\"#D8D8D8\" d=\"M4.186 11.689q0 1.335.533 2.35a3.94 3.94 0 0 0 1.477 1.583q.944.57 2.18.569 1.235 0 2.173-.569a4 4 0 0 0 1.476-1.583q.54-1.015.54-2.35V4.787q0-1.335-.54-2.35A4 4 0 0 0 10.55.853Q9.61.286 8.376.285q-1.235 0-2.18.568a3.94 3.94 0 0 0-1.477 1.584q-.533 1.015-.533 2.35zm-3.962.383q0 2.23.91 3.955a7.27 7.27 0 0 0 2.527 2.77q1.62 1.043 3.749 1.256v2.315H3.405a.94.94 0 0 0-.681.277.9.9 0 0 0-.284.675q0 .412.284.688.284.277.681.277h9.941q.398 0 .675-.277a.94.94 0 0 0 .277-.688.92.92 0 0 0-.277-.675.92.92 0 0 0-.675-.277H9.327v-2.315q2.13-.212 3.756-1.257a7.25 7.25 0 0 0 2.535-2.769q.91-1.726.91-3.955v-2.3a.92.92 0 0 0-.285-.69.94.94 0 0 0-.681-.276.92.92 0 0 0-.675.277.94.94 0 0 0-.277.689v2.215q0 1.904-.774 3.33a5.5 5.5 0 0 1-2.173 2.215q-1.398.789-3.287.789t-3.288-.789a5.5 5.5 0 0 1-2.173-2.215q-.774-1.427-.774-3.33V9.772a.94.94 0 0 0-.277-.69.94.94 0 0 0-.688-.276.92.92 0 0 0-.675.277.94.94 0 0 0-.277.689zm5.88-.383V4.787q0-1.221.624-1.917.625-.696 1.648-.696 1.008 0 1.64.696t.632 1.917v6.902q0 1.221-.632 1.917t-1.64.696q-1.023 0-1.648-.696t-.625-1.917\" style=\"fill:color(display-p3 .8458 .8458 .8458)"
+      ],
+      "weights": []
+    },
+    "gsap": [],
+    "threejs": [],
+    "components": [
+      {
+        "type": "card",
+        "count": 2
+      },
+      {
+        "type": "dialog",
+        "count": 1
+      },
+      {
+        "type": "nav",
+        "count": 1
+      },
+      {
+        "type": "pricing",
+        "count": 2
+      },
+      {
+        "type": "feature",
+        "count": 1
+      }
+    ],
+    "motion": {
+      "scroll": [],
+      "hover": [],
+      "load": [],
+      "micro": []
+    },
+    "layout": {
+      "grids": [],
+      "flex": [],
+      "breakpoints": [],
+      "spacing": []
+    },
+    "techniques": [
+      "glassmorphism",
+      "neumorphism",
+      "parallax",
+      "micro_interaction"
+    ],
+    "content_preview": "<!DOCTYPE html><html lang=\"en\" class=\"__variable_f367f3 __variable_3c557b __variable_f910ec\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"preload\" href=\"/_next/static/media/5b01f339abf2f1a5.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"/><link rel=\"preload\" href=\"/_next/static/media/bb3ef058b751a6ad-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"/><link rel=\"preload\" href=\"/_next/static/media/e4af272ccee01ff0-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"/><link rel=\"preload\" as=\"image\" imageSrcSet=\"/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Flinear-icon.png&amp;w=64&amp;q=70 1x, /_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Flinear-icon.png&amp;w=128&amp;q=70 2x\"/><link rel=\"preload\" as=\"image\" imageSrcSet=\"/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Flinear-web.png&amp;w=384&amp;q=70 1x, /_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Flinear-web.png&amp;w=750&amp;q=70 2x\"/><link rel=\"preload\" as=\"image\" imageSrcSet=\"/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fgoogle-translate-icon.png&amp;w=64&amp;q=70 1x, /_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fgoogle-translate-icon.png&amp;w=128&amp;q=70 2x\"/><link rel=\"preload\" as=\"image\" imageSrcSet=\"/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fgoo"
+  },
+  {
+    "site": "obys_agency",
+    "url": "https://obys.agency",
+    "why": "Awwwards winner. GSAP, horizontal scroll, cursor effects, page transitions.",
+    "date": "2026-05-07",
+    "content_type": "html",
+    "css_animations": [],
+    "gradients": [],
+    "colors": {
+      "hex": [
+        "#ffffff"
+      ],
+      "css_vars": [
+        {
+          "name": "--white",
+          "value": "#fff"
+        },
+        {
+          "name": "--black",
+          "value": "#000"
+        }
+      ]
+    },
+    "typography": {
+      "fonts": [
+        "Obys"
+      ],
+      "sizes": [],
+      "weights": [
+        "400"
+      ]
+    },
+    "gsap": [],
+    "threejs": [],
+    "components": [
+      {
+        "type": "card",
+        "count": 1
+      },
+      {
+        "type": "header",
+        "count": 9
+      },
+      {
+        "type": "input",
+        "count": 3
+      },
+      {
+        "type": "grid",
+        "count": 293
+      }
+    ],
+    "motion": {
+      "scroll": [],
+      "hover": [
+        {
+          "pattern": ":hover",
+          "count": 2
+        }
+      ],
+      "load": [],
+      "micro": []
+    },
+    "layout": {
+      "grids": [],
+      "flex": [],
+      "breakpoints": [],
+      "spacing": []
+    },
+    "techniques": [
+      "micro_interaction"
+    ],
+    "content_preview": "<!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=5\"/><script async=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=G-L16SCYVMS7\"></script><meta name=\"format-detection\" content=\"telephone=no\"/><link rel=\"canonical\" href=\"/\"/><meta name=\"robots\" content=\"all\"/><title>Obys Agency</title><meta name=\"theme-color\" content=\"#ffffff\"/><meta name=\"description\" content=\"Concept-driven design studio based in the EU. Crafting award-winning brand and web experiences shaped by storytelling and strong visual systems.\"/><meta property=\"og:type\" content=\"website\"/><meta property=\"og:title\" content=\"Obys Agency\"/><meta property=\"og:url\" content=\"https://obys.agency\"/><meta property=\"og:site_name\" content=\"Obys Agency\"/><meta property=\"og:description\" content=\"Concept-driven design studio based in the EU. Crafting award-winning brand and web experiences shaped by storytelling and strong visual systems.\"/><meta property=\"og:image\" content=\"https://cms.obys.agency/uploads/large_Thumbnail_Obys_5419986743.webp\"/><meta property=\"og:image:width\" content=\"1200\"/><meta property=\"og:image:height\" content=\"630\"/><meta name=\"twitter:card\" content=\"summary_large_image\"/><meta name=\"twitter:title\" content=\"Obys Agency\"/><meta name=\"twitter:description\" content=\"Concept-driven design studio based in the EU. Crafting award-winning brand and web experiences shaped by storytelling and strong visual sys"
+  },
+  {
+    "site": "shader_studio",
+    "url": "https://www.shader.se",
+    "why": "WebGL shader studio. Custom shaders, interactive 3D, canvas animation.",
+    "date": "2026-05-07",
+    "content_type": "html",
+    "css_animations": [],
+    "gradients": [],
+    "colors": {
+      "hex": [
+        "#000000"
+      ],
+      "css_vars": []
+    },
+    "typography": {
+      "fonts": [],
+      "sizes": [],
+      "weights": []
+    },
+    "gsap": [],
+    "threejs": [],
+    "components": [
+      {
+        "type": "card",
+        "count": 2
+      },
+      {
+        "type": "nav",
+        "count": 2
+      },
+      {
+        "type": "footer",
+        "count": 1
+      },
+      {
+        "type": "hero",
+        "count": 1
+      },
+      {
+        "type": "tab",
+        "count": 6
+      },
+      {
+        "type": "carousel",
+        "count": 4
+      }
+    ],
+    "motion": {
+      "scroll": [],
+      "hover": [],
+      "load": [],
+      "micro": [
+        "spring"
+      ]
+    },
+    "layout": {
+      "grids": [],
+      "flex": [],
+      "breakpoints": [],
+      "spacing": []
+    },
+    "techniques": [
+      "glassmorphism",
+      "horizontal_scroll",
+      "webgl"
+    ],
+    "content_preview": "<!DOCTYPE html><html data-dpl-id=\"dpl_7zBfSoUTJP474MZeo1QBxkHKryUu\" lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"/><link rel=\"preload\" href=\"/_next/static/media/62c2ceb5e93c1826-s.p.0-v~mv8_r_vtm.woff2?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"/><link rel=\"stylesheet\" href=\"/_next/static/chunks/0l.t8ml2224no.css?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu\" data-precedence=\"next\"/><link rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"/_next/static/chunks/07k6izpr80.um.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu\"/><script src=\"/_next/static/chunks/0f9pmwk9~iqf..js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu\" async=\"\"></script><script src=\"/_next/static/chunks/17.79-onzp9ko.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu\" async=\"\"></script><script src=\"/_next/static/chunks/01rpcm9oxyz4o.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu\" async=\"\"></script><script src=\"/_next/static/chunks/turbopack-06237-s6b4.it.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu\" async=\"\"></script><script src=\"/_next/static/chunks/03r54qy_a1k2c.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu\" async=\"\"></script><script src=\"/_next/static/chunks/0_4n59_u4tn.y.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu\" async=\"\"></script><script src=\"/_next/static/chunks/0_2dh_hbsn4k2.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu\" async"
+  },
+  {
+    "site": "ruinart_fresco",
+    "url": "https://fresque.ruinart.com",
+    "why": "Scroll-driven animation, parallax, art direction, video integration.",
+    "date": "2026-05-07",
+    "content_type": "html",
+    "css_animations": [],
+    "gradients": [],
+    "colors": {
+      "hex": [],
+      "css_vars": []
+    },
+    "typography": {
+      "fonts": [],
+      "sizes": [],
+      "weights": []
+    },
+    "gsap": [],
+    "threejs": [],
+    "components": [
+      {
+        "type": "card",
+        "count": 1
+      }
+    ],
+    "motion": {
+      "scroll": [],
+      "hover": [],
+      "load": [],
+      "micro": []
+    },
+    "layout": {
+      "grids": [],
+      "flex": [],
+      "breakpoints": [],
+      "spacing": []
+    },
+    "techniques": [],
+    "content_preview": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>La fresque Ruinart</title>\n    <link rel=\"icon\" type=\"image/png\" href=\"https://fresque.ruinart.com/favicon-96x96.png\" sizes=\"96x96\" />\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"https://fresque.ruinart.com/favicon.svg\" />\n    <link rel=\"shortcut icon\" href=\"https://fresque.ruinart.com/favicon.ico\" />\n    <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"https://fresque.ruinart.com/apple-touch-icon.png\" />\n    <link rel=\"manifest\" href=\"https://fresque.ruinart.com/site.webmanifest\" crossorigin=\"use-credentials\" />\n    <meta\n      name=\"description\"\n      content=\"Promenez-vous librement dans la fresque dessin\u00e9e par l'artiste Manon Diemer, illustrant l'histoire ancienne et contemporaine de la premi\u00e8re Maison de champagne: Ruinart.\"\n    />\n\n    <meta property=\"og:url\" content=\"https://fresque.ruinart.com/\" />\n    <meta property=\"og:type\" content=\"website\" />\n    <meta property=\"og:title\" content=\"La fresque Ruinart\" />\n    <meta\n      property=\"og:description\"\n      content=\"Promenez-vous librement dans la fresque dessin\u00e9e par l'artiste Manon Diemer, illustrant l'histoire ancienne et contemporaine de la premi\u00e8re Maison de champagne: Ruinart.\"\n    />\n    <meta property=\"og:image\" content=\"https://fresque.ruinart.com/images/og-image.png\" />\n\n    <meta name=\"twitter:card\" content=\"summary_large_image\" />\n    <meta prope"
+  },
+  {
+    "site": "thejacketcirclegame",
+    "url": "https://thejacketcirclegame.maxmara.com",
+    "why": "3D product interaction, drag physics, WebGL, luxury typography.",
+    "date": "2026-05-07",
+    "content_type": "html",
+    "css_animations": [],
+    "gradients": [],
+    "colors": {
+      "hex": [],
+      "css_vars": []
+    },
+    "typography": {
+      "fonts": [],
+      "sizes": [],
+      "weights": []
+    },
+    "gsap": [],
+    "threejs": [],
+    "components": [
+      {
+        "type": "card",
+        "count": 3
+      }
+    ],
+    "motion": {
+      "scroll": [],
+      "hover": [],
+      "load": [],
+      "micro": []
+    },
+    "layout": {
+      "grids": [],
+      "flex": [],
+      "breakpoints": [],
+      "spacing": []
+    },
+    "techniques": [
+      "webgl"
+    ],
+    "content_preview": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\">\n    <link rel=\"icon\" href=\"/favicon.ico\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Max Mara Jacket Circle</title>\n\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n\n    <!-- SEO Meta Tags -->\n    <meta name=\"description\" content=\"A series of imaginary words through which women shape their everyday wardrobe, combining design, lightness, and personality.\">\n    <meta name=\"keywords\" content=\"Max Mara, Interactive Experience, Fashion Game, Women's Fashion, Luxury Fashion, WebGL Game, Interactive dictionary\">\n    <meta name=\"author\" content=\"Adoratorio x Max Mara\">\n\n    <!-- Open Graph / Facebook -->\n    <meta property=\"og:type\" content=\"website\">\n    <meta property=\"og:url\" content=\"thejacketcirclegame.maxmara.com\">\n    <meta property=\"og:title\" content=\"Max Mara Jacket Circle\">\n    <meta property=\"og:description\" content=\"A series of imaginary words through which women shape their everyday wardrobe, combining design, lightness, and personality.\">\n    <meta property=\"og:image\" content=\"/social-card.avif\">\n\n    <!-- Twitter -->\n    <meta property=\"twitter:card\" content=\"summary_large_image\">\n    <meta property=\"twitter:url\" content=\"thejacketcirclegame.maxmara.com\">\n    <meta property=\"twitter:title\" content=\"Max Mara Jacket Circle\">\n    <meta property=\"twitter:description\" content="
+  }
+]
