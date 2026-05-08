@@ -21,24 +21,23 @@ export default function Home() {
           fetch(base + "/data/forbidden.json").then(r => r.json()).catch(() => null),
         ]);
 
-        // Parse extractions
+        // Parse extractions — format is [{site: "stripe", ...}, {site: "linear", ...}]
         const sites: Record<string, SiteData> = {};
-        for (const [siteName, siteData] of Object.entries(extractions as any)) {
-          if (siteName === "signals" || siteName === "layers" || siteName === "total_signals") continue;
-          const sd = siteData as any;
-          if (sd && typeof sd === "object" && sd.url) {
-            sites[siteName] = {
-              url: sd.url, why: sd.why || "",
-              total: (sd.css_animations?.length || 0) + (sd.gradients?.length || 0) + (sd.components?.length || 0) + (sd.techniques?.length || 0),
-              techniques: sd.techniques || [],
-              colors: sd.colors?.hex?.slice(0, 8) || [],
-              fonts: sd.typography?.fonts?.slice(0, 3) || [],
-              animation_count: sd.css_animations?.length || 0,
-              gradient_count: sd.gradients?.length || 0,
-              gsap_count: sd.gsap?.length || 0,
-              three_count: sd.threejs?.length || 0,
-            };
-          }
+        const extractionsList = Array.isArray(extractions) ? extractions : Object.values(extractions);
+        for (const sd of extractionsList) {
+          if (!sd || typeof sd !== "object" || !sd.url) continue;
+          const siteName = sd.site || sd.name || sd.url.replace(/https?:\/\//, "").split("/")[0].split(".")[0];
+          sites[siteName] = {
+            url: sd.url, why: sd.why || "",
+            total: (sd.css_animations?.length || 0) + (sd.gradients?.length || 0) + (sd.components?.length || 0) + (sd.techniques?.length || 0),
+            techniques: sd.techniques || [],
+            colors: sd.colors?.hex?.slice(0, 8) || [],
+            fonts: sd.typography?.fonts?.slice(0, 3) || [],
+            animation_count: sd.css_animations?.length || 0,
+            gradient_count: sd.gradients?.length || 0,
+            gsap_count: sd.gsap?.length || 0,
+            three_count: sd.threejs?.length || 0,
+          };
         }
 
         setData({ sites, youtube, github, forbidden });
