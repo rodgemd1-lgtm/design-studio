@@ -13,7 +13,7 @@ test.describe('RIG Design Studio V10 — Full Audit', () => {
 
   test('stats grid has 5 cards', async ({ page }) => {
     await page.goto(BASE);
-    await expect(page.locator('.stat-card')).toHaveCount(5);
+    await expect(page.locator('#page-dashboard .stat-card')).toHaveCount(5);
   });
 
   test('sidebar has 11 nav items', async ({ page }) => {
