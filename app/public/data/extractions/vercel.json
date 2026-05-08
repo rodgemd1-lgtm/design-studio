@@ -1,0 +1,93 @@
+{
+  "site": "vercel",
+  "url": "https://vercel.com",
+  "why": "Developer platform. Gradient mesh, deployment animations, DX-focused.",
+  "date": "2026-05-07",
+  "content_type": "html",
+  "css_animations": [],
+  "gradients": [],
+  "colors": {
+    "hex": [
+      "#fafafa",
+      "#00dc82",
+      "#ff3e00",
+      "#0096ff",
+      "#ff1e56",
+      "#e5484d",
+      "#52aeff",
+      "#45dec4"
+    ],
+    "css_vars": []
+  },
+  "typography": {
+    "fonts": [],
+    "sizes": [],
+    "weights": []
+  },
+  "gsap": [],
+  "threejs": [],
+  "components": [
+    {
+      "type": "card",
+      "count": 1
+    },
+    {
+      "type": "nav",
+      "count": 6
+    },
+    {
+      "type": "header",
+      "count": 19
+    },
+    {
+      "type": "form",
+      "count": 1
+    },
+    {
+      "type": "grid",
+      "count": 39
+    },
+    {
+      "type": "hero",
+      "count": 13
+    },
+    {
+      "type": "pricing",
+      "count": 2
+    },
+    {
+      "type": "feature",
+      "count": 37
+    }
+  ],
+  "motion": {
+    "scroll": [],
+    "hover": [],
+    "load": [
+      "onload"
+    ],
+    "micro": []
+  },
+  "layout": {
+    "grids": [],
+    "flex": [],
+    "breakpoints": [
+      "@media (max-width: 1150px)",
+      "@media (min-width: 1151px)"
+    ],
+    "spacing": [
+      "0px"
+    ]
+  },
+  "techniques": [
+    "glassmorphism",
+    "horizontal_scroll",
+    "masonry",
+    "sticky_header",
+    "micro_interaction",
+    "dark_mode",
+    "canvas_animation",
+    "container_queries"
+  ],
+  "content_preview": "<!DOCTYPE html><html data-dpl-id=\"dpl_BRxwdU4rRZXN4Rpfo7ER2UNDCtqS\" class=\"geist_mono_98cac566-module__bcNCwW__className geist_1620151b-module__2VSEvG__className geist_mono_98cac566-module__bcNCwW__variable geist_1620151b-module__2VSEvG__variable\" lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\"/><link rel=\"preload\" href=\"/vc-ap-vercel-marketing/_next/static/media/797e433ab948586e.p.3f30ggp2vw8zj.woff2?dpl=dpl_BRxwdU4rRZXN4Rpfo7ER2UNDCtqS\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"/><link rel=\"preload\" href=\"/vc-ap-vercel-marketing/_next/static/media/GeistPixel_Circle.p.0jixsyww9kd4y.woff2?dpl=dpl_BRxwdU4rRZXN4Rpfo7ER2UNDCtqS\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"/><link rel=\"preload\" href=\"/vc-ap-vercel-marketing/_next/static/media/GeistPixel_Grid.p.30wdobjl9hgxl.woff2?dpl=dpl_BRxwdU4rRZXN4Rpfo7ER2UNDCtqS\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"/><link rel=\"preload\" href=\"/vc-ap-vercel-marketing/_next/static/media/GeistPixel_Line.p.0rlph12vacpf4.woff2?dpl=dpl_BRxwdU4rRZXN4Rpfo7ER2UNDCtqS\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"/><link rel=\"preload\" href=\"/vc-ap-vercel-marketing/_next/static/media/GeistPixel_Square.p.2k-0ab8oywfv4.woff2?dpl=dpl_BRxwdU4rRZXN4Rpfo7ER2UNDCtqS\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"/><link rel=\"preload\" href=\"/vc-ap-vercel-marketing/_next/static/media/GeistPixel_Triangle.p.0qs0n6zg5c5u1.woff2?dpl=dpl_BRxwdU4rRZXN4Rpfo7ER2UNDCtqS\" as=\"font\" crossorigin=\"\" typ"
+}

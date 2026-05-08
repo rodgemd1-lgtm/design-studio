@@ -1,0 +1,42 @@
+{
+  "site": "thejacketcirclegame",
+  "url": "https://thejacketcirclegame.maxmara.com",
+  "why": "3D product interaction, drag physics, WebGL, luxury typography.",
+  "date": "2026-05-07",
+  "content_type": "html",
+  "css_animations": [],
+  "gradients": [],
+  "colors": {
+    "hex": [],
+    "css_vars": []
+  },
+  "typography": {
+    "fonts": [],
+    "sizes": [],
+    "weights": []
+  },
+  "gsap": [],
+  "threejs": [],
+  "components": [
+    {
+      "type": "card",
+      "count": 3
+    }
+  ],
+  "motion": {
+    "scroll": [],
+    "hover": [],
+    "load": [],
+    "micro": []
+  },
+  "layout": {
+    "grids": [],
+    "flex": [],
+    "breakpoints": [],
+    "spacing": []
+  },
+  "techniques": [
+    "webgl"
+  ],
+  "content_preview": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\">\n    <link rel=\"icon\" href=\"/favicon.ico\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Max Mara Jacket Circle</title>\n\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n\n    <!-- SEO Meta Tags -->\n    <meta name=\"description\" content=\"A series of imaginary words through which women shape their everyday wardrobe, combining design, lightness, and personality.\">\n    <meta name=\"keywords\" content=\"Max Mara, Interactive Experience, Fashion Game, Women's Fashion, Luxury Fashion, WebGL Game, Interactive dictionary\">\n    <meta name=\"author\" content=\"Adoratorio x Max Mara\">\n\n    <!-- Open Graph / Facebook -->\n    <meta property=\"og:type\" content=\"website\">\n    <meta property=\"og:url\" content=\"thejacketcirclegame.maxmara.com\">\n    <meta property=\"og:title\" content=\"Max Mara Jacket Circle\">\n    <meta property=\"og:description\" content=\"A series of imaginary words through which women shape their everyday wardrobe, combining design, lightness, and personality.\">\n    <meta property=\"og:image\" content=\"/social-card.avif\">\n\n    <!-- Twitter -->\n    <meta property=\"twitter:card\" content=\"summary_large_image\">\n    <meta property=\"twitter:url\" content=\"thejacketcirclegame.maxmara.com\">\n    <meta property=\"twitter:title\" content=\"Max Mara Jacket Circle\">\n    <meta property=\"twitter:description\" content="
+}

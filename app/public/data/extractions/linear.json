@@ -1,0 +1,898 @@
+{
+  "site": "linear",
+  "url": "https://linear.app",
+  "why": "Best dark-mode SaaS UI. Keyboard-first, command palette, smooth transitions.",
+  "date": "2026-05-07",
+  "content_type": "html",
+  "css_animations": [
+    {
+      "type": "keyframes",
+      "name": "grid-dot-0-0-agent",
+      "body": "0%{opacity:1;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-0-1-agent",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-0-2-agent",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-0-3-agent",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-0-4-agent",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-1-0-agent",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-1-1-agent",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-1-2-agent",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-1-3-agent",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-1-4-agent",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-2-0-agent",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-2-1-agent",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-2-2-agent",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-2-3-agent",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-2-4-agent",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-3-0-agent",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-3-1-agent",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-3-2-agent",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-3-3-agent",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-3-4-agent",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-4-0-agent",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-4-1-agent",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-4-2-agent",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-4-3-agent",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-4-4-agent",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-0-0-upDown",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-0-1-upDown",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-0-2-upDown",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-0-3-upDown",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-0-4-upDown",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-1-0-upDown",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-1-1-upDown",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-1-2-upDown",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-1-3-upDown",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-1-4-upDown",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-2-0-upDown",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-2-1-upDown",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-2-2-upDown",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-2-3-upDown",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-2-4-upDown",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-3-0-upDown",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-3-1-upDown",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-3-2-upDown",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-3-3-upDown",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-3-4-upDown",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-4-0-upDown",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-4-1-upDown",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-4-2-upDown",
+      "body": "0%{opacity:1;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-4-3-upDown",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-4-4-upDown",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-0-0-pong",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-0-1-pong",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-0-2-pong",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-0-3-pong",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-0-4-pong",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-1-0-pong",
+      "body": "0%{opacity:1;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-1-1-pong",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-1-2-pong",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-1-3-pong",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-1-4-pong",
+      "body": "0%{opacity:1;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-2-0-pong",
+      "body": "0%{opacity:1;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-2-1-pong",
+      "body": "0%{opacity:1;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-2-2-pong",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "keyframes",
+      "name": "grid-dot-2-3-pong",
+      "body": "0%{opacity:0.3;"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-0-0-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-0-0-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-0-1-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-0-1-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-0-2-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-0-2-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-0-3-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-0-3-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-0-4-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-0-4-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-1-0-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-1-0-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-1-1-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-1-1-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-1-2-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-1-2-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-1-3-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-1-3-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-1-4-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-1-4-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-2-0-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-2-0-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-2-1-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-2-1-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-2-2-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-2-2-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-2-3-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-2-3-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-2-4-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-2-4-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-3-0-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-3-0-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-3-1-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-3-1-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-3-2-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-3-2-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-3-3-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-3-3-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-3-4-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-3-4-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-4-0-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-4-0-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-4-1-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-4-1-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-4-2-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-4-2-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-4-3-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-4-3-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-4-4-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-4-4-agent 3200ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-0-0-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-0-0-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-0-1-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-0-1-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-0-2-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-0-2-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-0-3-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-0-3-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-0-4-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-0-4-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-1-0-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-1-0-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-1-1-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-1-1-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-1-2-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-1-2-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-1-3-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-1-3-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-1-4-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-1-4-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-2-0-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-2-0-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-2-1-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-2-1-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-2-2-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-2-2-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-2-3-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-2-3-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-2-4-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-2-4-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-3-0-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-3-0-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-3-1-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-3-1-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-3-2-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-3-2-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-3-3-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-3-3-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-3-4-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-3-4-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-4-0-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-4-0-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-4-1-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-4-1-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-4-2-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-4-2-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-4-3-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-4-3-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-4-4-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-4-4-upDown 2800ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-0-0-pong 1600ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-0-0-pong 1600ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-0-1-pong 1600ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-0-1-pong 1600ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-0-2-pong 1600ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-0-2-pong 1600ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-0-3-pong 1600ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-0-3-pong 1600ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-0-4-pong 1600ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-0-4-pong 1600ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-1-0-pong 1600ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-1-0-pong 1600ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-1-1-pong 1600ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-1-1-pong 1600ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-1-2-pong 1600ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-1-2-pong 1600ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-1-3-pong 1600ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-1-3-pong 1600ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-1-4-pong 1600ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-1-4-pong 1600ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-2-0-pong 1600ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-2-0-pong 1600ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-2-1-pong 1600ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-2-1-pong 1600ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-2-2-pong 1600ms steps(1, end) infinite"
+    },
+    {
+      "type": "animation",
+      "value": "grid-dot-2-2-pong 1600ms steps(1, end) infinite"
+    }
+  ],
+  "gradients": [],
+  "colors": {
+    "hex": [
+      "#08090a"
+    ],
+    "css_vars": []
+  },
+  "typography": {
+    "fonts": [
+      "var(--font-monospace)"
+    ],
+    "sizes": [
+      "var(--title-8-size)",
+      "var(--title-7-size)",
+      "var(--title-5-size)",
+      "0.6em",
+      "0.9em",
+      "var(--text-regular-size)",
+      "var(--text-mini-size)",
+      "var(--text-small-size)",
+      "var(--text-micro-size)",
+      "var(--title-2-size)"
+    ],
+    "weights": [
+      "var(--font-weight-medium)",
+      "var(--font-weight-semibold)",
+      "var(--font-weight-light)",
+      "var(--font-weight-normal)"
+    ]
+  },
+  "gsap": [],
+  "threejs": [],
+  "components": [
+    {
+      "type": "card",
+      "count": 1
+    },
+    {
+      "type": "grid",
+      "count": 317
+    },
+    {
+      "type": "feature",
+      "count": 8
+    }
+  ],
+  "motion": {
+    "scroll": [],
+    "hover": [],
+    "load": [],
+    "micro": []
+  },
+  "layout": {
+    "grids": [],
+    "flex": [],
+    "breakpoints": [
+      "@media (max-width: 1024px)",
+      "@media (max-width: 640px)",
+      "@media (max-width: 1280px)",
+      "@media (max-width: 768px)"
+    ],
+    "spacing": []
+  },
+  "techniques": [],
+  "content_preview": "<!DOCTYPE html><html lang=\"en\" data-theme=\"dark\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, height=device-height, initial-scale=1, viewport-fit=cover\"/><link rel=\"preload\" href=\"https://static.linear.app/fonts/InterVariable.woff2?v=4.1\" as=\"font\" crossorigin=\"anonymous\" type=\"font/woff2\"/><link rel=\"preload\" as=\"image\" href=\"https://webassets.linear.app/images/ornj730p/production/f79251b06e9edeeacbf2875384defe629e000b3c-352x352.png?w=72&amp;q=95&amp;auto=format&amp;dpr=2\"/><link rel=\"stylesheet\" href=\"https://static.linear.app/web/_next/static/css/e3d60b2264302e04.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"https://static.linear.app/web/_next/static/css/16bcbc0924f6eaf4.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"https://static.linear.app/web/_next/static/css/ab7b7c73a2ddc363.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"https://static.linear.app/web/_next/static/css/0fe984a073147160.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"https://static.linear.app/web/_next/static/css/0195fdb6fe77c9da.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"https://static.linear.app/web/_next/static/css/270a258b0f93f6a1.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"https://static.linear.app/web/_next/static/css/b0b443a6054874c7.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"https://static.linear.app/web/_next/static/css/7465c5ba61d54742.css\" data-precedence=\"next\"/><link rel"
+}

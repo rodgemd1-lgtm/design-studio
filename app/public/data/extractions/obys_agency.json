@@ -1,0 +1,74 @@
+{
+  "site": "obys_agency",
+  "url": "https://obys.agency",
+  "why": "Awwwards winner. GSAP, horizontal scroll, cursor effects, page transitions.",
+  "date": "2026-05-07",
+  "content_type": "html",
+  "css_animations": [],
+  "gradients": [],
+  "colors": {
+    "hex": [
+      "#ffffff"
+    ],
+    "css_vars": [
+      {
+        "name": "--white",
+        "value": "#fff"
+      },
+      {
+        "name": "--black",
+        "value": "#000"
+      }
+    ]
+  },
+  "typography": {
+    "fonts": [
+      "Obys"
+    ],
+    "sizes": [],
+    "weights": [
+      "400"
+    ]
+  },
+  "gsap": [],
+  "threejs": [],
+  "components": [
+    {
+      "type": "card",
+      "count": 1
+    },
+    {
+      "type": "header",
+      "count": 9
+    },
+    {
+      "type": "input",
+      "count": 3
+    },
+    {
+      "type": "grid",
+      "count": 293
+    }
+  ],
+  "motion": {
+    "scroll": [],
+    "hover": [
+      {
+        "pattern": ":hover",
+        "count": 2
+      }
+    ],
+    "load": [],
+    "micro": []
+  },
+  "layout": {
+    "grids": [],
+    "flex": [],
+    "breakpoints": [],
+    "spacing": []
+  },
+  "techniques": [
+    "micro_interaction"
+  ],
+  "content_preview": "<!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=5\"/><script async=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=G-L16SCYVMS7\"></script><meta name=\"format-detection\" content=\"telephone=no\"/><link rel=\"canonical\" href=\"/\"/><meta name=\"robots\" content=\"all\"/><title>Obys Agency</title><meta name=\"theme-color\" content=\"#ffffff\"/><meta name=\"description\" content=\"Concept-driven design studio based in the EU. Crafting award-winning brand and web experiences shaped by storytelling and strong visual systems.\"/><meta property=\"og:type\" content=\"website\"/><meta property=\"og:title\" content=\"Obys Agency\"/><meta property=\"og:url\" content=\"https://obys.agency\"/><meta property=\"og:site_name\" content=\"Obys Agency\"/><meta property=\"og:description\" content=\"Concept-driven design studio based in the EU. Crafting award-winning brand and web experiences shaped by storytelling and strong visual systems.\"/><meta property=\"og:image\" content=\"https://cms.obys.agency/uploads/large_Thumbnail_Obys_5419986743.webp\"/><meta property=\"og:image:width\" content=\"1200\"/><meta property=\"og:image:height\" content=\"630\"/><meta name=\"twitter:card\" content=\"summary_large_image\"/><meta name=\"twitter:title\" content=\"Obys Agency\"/><meta name=\"twitter:description\" content=\"Concept-driven design studio based in the EU. Crafting award-winning brand and web experiences shaped by storytelling and strong visual sys"
+}

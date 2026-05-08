@@ -1,0 +1,68 @@
+{
+  "site": "shader_studio",
+  "url": "https://www.shader.se",
+  "why": "WebGL shader studio. Custom shaders, interactive 3D, canvas animation.",
+  "date": "2026-05-07",
+  "content_type": "html",
+  "css_animations": [],
+  "gradients": [],
+  "colors": {
+    "hex": [
+      "#000000"
+    ],
+    "css_vars": []
+  },
+  "typography": {
+    "fonts": [],
+    "sizes": [],
+    "weights": []
+  },
+  "gsap": [],
+  "threejs": [],
+  "components": [
+    {
+      "type": "card",
+      "count": 2
+    },
+    {
+      "type": "nav",
+      "count": 2
+    },
+    {
+      "type": "footer",
+      "count": 1
+    },
+    {
+      "type": "hero",
+      "count": 1
+    },
+    {
+      "type": "tab",
+      "count": 6
+    },
+    {
+      "type": "carousel",
+      "count": 4
+    }
+  ],
+  "motion": {
+    "scroll": [],
+    "hover": [],
+    "load": [],
+    "micro": [
+      "spring"
+    ]
+  },
+  "layout": {
+    "grids": [],
+    "flex": [],
+    "breakpoints": [],
+    "spacing": []
+  },
+  "techniques": [
+    "glassmorphism",
+    "horizontal_scroll",
+    "webgl"
+  ],
+  "content_preview": "<!DOCTYPE html><html data-dpl-id=\"dpl_7zBfSoUTJP474MZeo1QBxkHKryUu\" lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"/><link rel=\"preload\" href=\"/_next/static/media/62c2ceb5e93c1826-s.p.0-v~mv8_r_vtm.woff2?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"/><link rel=\"stylesheet\" href=\"/_next/static/chunks/0l.t8ml2224no.css?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu\" data-precedence=\"next\"/><link rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"/_next/static/chunks/07k6izpr80.um.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu\"/><script src=\"/_next/static/chunks/0f9pmwk9~iqf..js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu\" async=\"\"></script><script src=\"/_next/static/chunks/17.79-onzp9ko.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu\" async=\"\"></script><script src=\"/_next/static/chunks/01rpcm9oxyz4o.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu\" async=\"\"></script><script src=\"/_next/static/chunks/turbopack-06237-s6b4.it.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu\" async=\"\"></script><script src=\"/_next/static/chunks/03r54qy_a1k2c.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu\" async=\"\"></script><script src=\"/_next/static/chunks/0_4n59_u4tn.y.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu\" async=\"\"></script><script src=\"/_next/static/chunks/0_2dh_hbsn4k2.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu\" async"
+}

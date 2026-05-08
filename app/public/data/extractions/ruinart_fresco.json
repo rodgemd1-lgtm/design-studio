@@ -1,0 +1,40 @@
+{
+  "site": "ruinart_fresco",
+  "url": "https://fresque.ruinart.com",
+  "why": "Scroll-driven animation, parallax, art direction, video integration.",
+  "date": "2026-05-07",
+  "content_type": "html",
+  "css_animations": [],
+  "gradients": [],
+  "colors": {
+    "hex": [],
+    "css_vars": []
+  },
+  "typography": {
+    "fonts": [],
+    "sizes": [],
+    "weights": []
+  },
+  "gsap": [],
+  "threejs": [],
+  "components": [
+    {
+      "type": "card",
+      "count": 1
+    }
+  ],
+  "motion": {
+    "scroll": [],
+    "hover": [],
+    "load": [],
+    "micro": []
+  },
+  "layout": {
+    "grids": [],
+    "flex": [],
+    "breakpoints": [],
+    "spacing": []
+  },
+  "techniques": [],
+  "content_preview": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>La fresque Ruinart</title>\n    <link rel=\"icon\" type=\"image/png\" href=\"https://fresque.ruinart.com/favicon-96x96.png\" sizes=\"96x96\" />\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"https://fresque.ruinart.com/favicon.svg\" />\n    <link rel=\"shortcut icon\" href=\"https://fresque.ruinart.com/favicon.ico\" />\n    <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"https://fresque.ruinart.com/apple-touch-icon.png\" />\n    <link rel=\"manifest\" href=\"https://fresque.ruinart.com/site.webmanifest\" crossorigin=\"use-credentials\" />\n    <meta\n      name=\"description\"\n      content=\"Promenez-vous librement dans la fresque dessin\u00e9e par l'artiste Manon Diemer, illustrant l'histoire ancienne et contemporaine de la premi\u00e8re Maison de champagne: Ruinart.\"\n    />\n\n    <meta property=\"og:url\" content=\"https://fresque.ruinart.com/\" />\n    <meta property=\"og:type\" content=\"website\" />\n    <meta property=\"og:title\" content=\"La fresque Ruinart\" />\n    <meta\n      property=\"og:description\"\n      content=\"Promenez-vous librement dans la fresque dessin\u00e9e par l'artiste Manon Diemer, illustrant l'histoire ancienne et contemporaine de la premi\u00e8re Maison de champagne: Ruinart.\"\n    />\n    <meta property=\"og:image\" content=\"https://fresque.ruinart.com/images/og-image.png\" />\n\n    <meta name=\"twitter:card\" content=\"summary_large_image\" />\n    <meta prope"
+}

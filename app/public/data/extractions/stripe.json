@@ -1,0 +1,96 @@
+{
+  "site": "stripe",
+  "url": "https://stripe.com",
+  "why": "Gold standard SaaS. Gradient animations, typography, micro-interactions.",
+  "date": "2026-05-07",
+  "content_type": "html",
+  "css_animations": [],
+  "gradients": [],
+  "colors": {
+    "hex": [
+      "#031323",
+      "#4285f4",
+      "#34a853",
+      "#fbbc04",
+      "#ea4335",
+      "#171d27",
+      "#ff6201",
+      "#76b900",
+      "#003478",
+      "#0052ff",
+      "#fbbc05",
+      "#95bf47",
+      "#5e8e3e",
+      "#2d2d2d",
+      "#a4ce4e",
+      "#0090da",
+      "#0061a0",
+      "#010202",
+      "#a11d2b",
+      "#873eff"
+    ],
+    "css_vars": []
+  },
+  "typography": {
+    "fonts": [],
+    "sizes": [],
+    "weights": []
+  },
+  "gsap": [],
+  "threejs": [],
+  "components": [
+    {
+      "type": "card",
+      "count": 6
+    },
+    {
+      "type": "dialog",
+      "count": 1
+    },
+    {
+      "type": "nav",
+      "count": 6
+    },
+    {
+      "type": "header",
+      "count": 8
+    },
+    {
+      "type": "footer",
+      "count": 1
+    },
+    {
+      "type": "grid",
+      "count": 1
+    },
+    {
+      "type": "hero",
+      "count": 30
+    },
+    {
+      "type": "pricing",
+      "count": 2
+    },
+    {
+      "type": "carousel",
+      "count": 1
+    }
+  ],
+  "motion": {
+    "scroll": [],
+    "hover": [],
+    "load": [],
+    "micro": []
+  },
+  "layout": {
+    "grids": [],
+    "flex": [],
+    "breakpoints": [],
+    "spacing": []
+  },
+  "techniques": [
+    "sticky_header",
+    "micro_interaction"
+  ],
+  "content_preview": "<!DOCTYPE html><html id=\"\u200b\" lang=\"en-US\"><head><meta charSet=\"utf-8\"/><meta name=\"request-country\" content=\"US\"/><meta name=\"edge-experiment-treatments\" content=\"wpp_react_homepage_aa.control.ursula.047a9260-71da-b702-8d14-21cb6b515499.a.s,wpp_acquisition_mobile_sticky_hamburger.control.ursula.3a948bb1-8ffc-705c-8640-4d8a3e0e762d.m.s,wpp_console_mvp_nav_cta.treatment.ursula.841e016d-818e-533c-a520-ba7f7701f519.m.s\"/><meta name=\"experiment-treatments\" content=\"wpp_react_homepage_aa.control.ursula.62fd4e9c-88a8-4d0d-9306-b4581379ad8f.a.s,wpp_acquisition_mobile_sticky_hamburger.control.ursula.a094fa03-c042-48b7-b5b3-4af73d60c711.m.s,wpp_console_mvp_nav_cta.treatment.ursula.20c79696-50ac-4a1a-8eac-a006c15f65e3.m.s\"/><meta name=\"experiment-token\" content=\"b057adf6c5115d23b9dae9cd960f5a11e4a9ad16\"/><link rel=\"preload\" href=\"https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/media/Sohne.cb178166.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"anonymous\"/><link rel=\"preload\" href=\"https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/media/SourceCodePro-Medium.f5ba3e6a.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"anonymous\"/><title>Stripe | Financial Infrastructure to Grow Your Revenue</title><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"/><link rel=\"preconnect\" href=\"https://q.stripe.com\" crossorigin=\"\"/><link rel=\"dns-prefetch\" href=\"https://q.stripe.com\"/><link rel=\"preconnect\" href=\"https://r.stripe.com\" crossorigin=\"\"/><"
+}
