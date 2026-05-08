@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RIG Design Studio</title>
+<style>
+:root{--bg:#0a0a0c;--surface:#141418;--border:#2a2a32;--text:#faf9f7;--muted:#8a8a9a;--accent:#0d9488;--green:#22c55e;--blue:#3b82f6;--purple:#a855f7;--orange:#d97706;--red:#ef4444}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased}
+::-webkit-scrollbar{width:6px}::-webkit-scrollbar-track{background:var(--surface)}::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}
+a{color:inherit;text-decoration:none}
+.layout{display:flex;min-height:100vh}
+.sidebar{width:220px;position:fixed;left:0;top:0;height:100vh;background:var(--surface);border-right:1px solid var(--border);padding:20px;overflow-y:auto;z-index:10}
+.sidebar h1{font-size:18px;font-weight:700;margin-bottom:4px}
+.sidebar h1 span{color:var(--accent)}
+.sidebar .version{font-size:10px;color:var(--muted);font-family:monospace;margin-bottom:24px}
+.sidebar nav{display:flex;flex-direction:column;gap:2px}
+.sidebar nav a{display:flex;align-items:center;gap:10px;padding:8px 12px;border-radius:8px;color:var(--muted);font-size:14px;transition:all .2s}
+.sidebar nav a:hover{background:var(--surface);color:var(--text)}
+.sidebar nav a.active{background:#1c1c22;color:var(--text)}
+.sidebar nav a .icon{width:16px;text-align:center;font-size:12px}
+.sidebar nav a .badge{margin-left:auto;font-size:9px;font-weight:700;background:var(--accent);color:var(--bg);padding:2px 6px;border-radius:10px}
+.main{flex:1;margin-left:220px;padding:32px;max-width:1400px}
+.page{display:none}
+.page.active{display:block}
+h1{font-size:28px;font-weight:600;margin-bottom:4px}
+h2{font-size:14px;font-weight:600;margin-bottom:16px}
+.subtitle{font-size:14px;color:var(--muted);margin-bottom:32px}
+.stats-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;margin-bottom:32px}
+.stat-card{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:20px}
+.stat-card .value{font-size:24px;font-weight:700}
+.stat-card .label{font-size:12px;color:var(--muted);margin-top:4px}
+.stat-card .sub{font-size:10px;color:var(--green);margin-top:2px}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-bottom:24px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:20px}
+.video-item{display:flex;gap:12px;padding:10px;border-radius:8px;margin-bottom:4px;transition:background .2s}
+.video-item:hover{background:#1c1c22}
+.video-thumb{width:90px;height:50px;background:#1c1c22;border-radius:4px;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:14px}
+.video-title{font-size:13px;font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.video-channel{font-size:11px;color:var(--muted);margin-top:2px}
+.video-tools{display:flex;gap:4px;margin-top:6px;flex-wrap:wrap}
+.tag{font-size:9px;padding:2px 8px;background:rgba(13,148,136,0.15);color:var(--accent);border:1px solid rgba(13,148,136,0.3);border-radius:4px}
+.tag-orange{font-size:9px;padding:2px 8px;background:rgba(217,119,6,0.15);color:var(--orange);border:1px solid rgba(217,119,6,0.3);border-radius:4px}
+.site-card{margin-bottom:16px;padding-bottom:16px;border-bottom:1px solid var(--border)}
+.site-card:last-child{border-bottom:none;margin-bottom:0;padding-bottom:0}
+.site-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:4px}
+.site-name{font-size:13px;font-weight:600}
+.site-url{font-size:10px;color:var(--muted);font-family:monospace}
+.site-count{font-size:18px;font-weight:700;color:var(--accent)}
+.color-row{display:flex;gap:4px;margin-bottom:6px}
+.color-swatch{width:16px;height:16px;border-radius:4px}
+.tech-row{display:flex;gap:4px;flex-wrap:wrap}
+.technique-item{display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid var(--border)}
+.technique-item:last-child{border-bottom:none}
+.technique-name{font-size:13px;font-weight:500}
+.technique-desc{font-size:10px;color:var(--muted)}
+.technique-count{font-size:12px;color:var(--accent);font-weight:600}
+.repo-item{display:flex;gap:12px;padding:10px 0;border-bottom:1px solid var(--border)}
+.repo-item:last-child{border-bottom:none}
+.repo-icon{width:32px;height:32px;background:#1c1c22;border-radius:8px;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:12px}
+.repo-name{font-size:13px;font-weight:600}
+.repo-meta{font-size:10px;color:var(--muted)}
+.tools-grid{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.tool-pill{font-size:12px;padding:6px 12px;background:#1c1c22;color:var(--accent);border:1px solid var(--border);border-radius:20px}
+.provocation-item{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px;margin-bottom:12px}
+.provocation-cat{font-size:9px;text-transform:uppercase;letter-spacing:1px;color:var(--orange);margin-bottom:4px}
+.provocation-q{font-size:14px;font-weight:500}
+.score-input{width:100%;height:200px;background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:16px;font-size:14px;color:var(--text);resize:vertical;font-family:inherit}
+.score-input:focus{outline:none;border-color:var(--accent)}
+.score-btn{margin-top:16px;background:var(--accent);color:var(--bg);padding:10px 20px;border-radius:8px;font-size:14px;font-weight:600;border:none;cursor:pointer}
+.score-btn:hover{background:#0f766e}
+.score-result{margin-top:16px;padding:16px;background:var(--bg);border:1px solid var(--border);border-radius:8px;font-size:14px;font-family:monospace}
+.forbidden-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.forbidden-col h3{font-size:14px;font-weight:600;margin-bottom:12px;color:var(--red)}
+.forbidden-item{padding:6px 0;border-bottom:1px solid var(--border);font-size:13px;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="layout">
+  <aside class="sidebar">
+    <h1>RIG <span>Design Studio</span></h1>
+    <p class="version">V10 — Live</p>
+    <nav>
+      <a href="#" class="active" onclick="showPage('dashboard')"><span class="icon">◈</span> Dashboard</a>
+      <a href="#" onclick="showPage('sites')"><span class="icon">◉</span> Sites <span class="badge">8</span></a>
+      <a href="#" onclick="showPage('videos')"><span class="icon">▶</span> Videos <span class="badge">2479</span></a>
+      <a href="#" onclick="showPage('repos')"><span class="icon">◫</span> Repos <span class="badge">20</span></a>
+      <a href="#" onclick="showPage('tokens')"><span class="icon">◑</span> Tokens</a>
+      <a href="#" onclick="showPage('techniques')"><span class="icon">◐</span> Techniques <span class="badge">11</span></a>
+      <a href="#" onclick="showPage('snippets')"><span class="icon">⟨/⟩</span> Snippets</a>
+      <a href="#" onclick="showPage('kanban')"><span class="icon">⊞</span> Studio</a>
+      <a href="#" onclick="showPage('provocations')"><span class="icon">?</span> Provoke <span class="badge">100</span></a>
+      <a href="#" onclick="showPage('scoring')"><span class="icon">◈</span> Score</a>
+      <a href="#" onclick="showPage('forbidden')"><span class="icon">✕</span> Forbidden</a>
+    </nav>
+  </aside>
+
+  <div class="main">
+
+    <!-- DASHBOARD -->
+    <div id="page-dashboard" class="page active">
+      <h1>Design Intelligence Dashboard</h1>
+      <p class="subtitle">Live data from extraction pipeline</p>
+
+      <div class="stats-grid">
+        <div class="stat-card"><div class="value" style="color:var(--accent)">2,479</div><div class="label">YouTube Videos</div><div class="sub">33 channels · 30 days</div></div>
+        <div class="stat-card"><div class="value" style="color:var(--blue)">8</div><div class="label">Sites Extracted</div><div class="sub">65 intelligence items</div></div>
+        <div class="stat-card"><div class="value" style="color:var(--purple)">20</div><div class="label">GitHub Repos</div><div class="sub">38 animations extracted</div></div>
+        <div class="stat-card"><div class="value" style="color:var(--orange)">11</div><div class="label">Techniques</div><div class="sub">12 tools detected</div></div>
+        <div class="stat-card"><div class="value" style="color:var(--green)">161</div><div class="label">Susan Chunks</div><div class="sub">design-studio RAG</div></div>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <h2>▶ Recent YouTube Videos</h2>
+          <div class="video-item"><div class="video-thumb">▶</div><div><div class="video-title">TOP UI/UX Animations of April 2026</div><div class="video-channel">Orizon Design</div></div></div>
+          <div class="video-item"><div class="video-thumb">▶</div><div><div class="video-title">HTML in Canvas is Futuristic AF</div><div class="video-channel">DesignCourse</div><div class="video-tools"><span class="tag">canvas</span></div></div></div>
+          <div class="video-item"><div class="video-thumb">▶</div><div><div class="video-title">SVG Filters are Sick! Turbulence & Displacement</div><div class="video-channel">DesignCourse</div><div class="video-tools"><span class="tag">svg</span></div></div></div>
+          <div class="video-item"><div class="video-thumb">▶</div><div><div class="video-title">13 Mistakes Beginner UI Designers Make</div><div class="video-channel">DesignCourse</div></div></div>
+          <div class="video-item"><div class="video-thumb">▶</div><div><div class="video-title">CSS Color Game is way harder than expected</div><div class="video-channel">Kevin Powell</div></div></div>
+          <div class="video-item"><div class="video-thumb">▶</div><div><div class="video-title">Framer Shaders are SICK - How I use them</div><div class="video-channel">DesignCourse</div><div class="video-tools"><span class="tag">framer</span></div></div></div>
+        </div>
+        <div class="card">
+          <h2>◉ Site Extractions</h2>
+          <div class="site-card"><div class="site-header"><div><div class="site-name">Linear</div><div class="site-url">linear.app</div></div><span class="site-count">195</span></div><div class="color-row"><div class="color-swatch" style="background:#08090a"></div><div class="color-swatch" style="background:#1a1a1a"></div><div class="color-swatch" style="background:#2a2a2a"></div><div class="color-swatch" style="background:#5a5a5a"></div><div class="color-swatch" style="background:#8a8a8a"></div></div><div class="tech-row"><span class="tag">dark mode</span><span class="tag">micro interaction</span><span class="tag">sticky header</span></div></div>
+          <div class="site-card"><div class="site-header"><div><div class="site-name">Stripe</div><div class="site-url">stripe.com</div></div><span class="site-count">31</span></div><div class="color-row"><div class="color-swatch" style="background:#031323"></div><div class="color-swatch" style="background:#4285f4"></div><div class="color-swatch" style="background:#34a853"></div><div class="color-swatch" style="background:#fbbc04"></div><div class="color-swatch" style="background:#ea4335"></div></div><div class="tech-row"><span class="tag">sticky header</span><span class="tag">micro interaction</span></div></div>
+          <div class="site-card"><div class="site-header"><div><div class="site-name">Raycast</div><div class="site-url">raycast.com</div></div><span class="site-count">39</span></div><div class="color-row"><div class="color-swatch" style="background:#20235b"></div><div class="color-swatch" style="background:#070921"></div><div class="color-swatch" style="background:#2b5eb4"></div><div class="color-swatch" style="background:#ff6363"></div><div class="color-swatch" style="background:#59d499"></div></div><div class="tech-row"><span class="tag">glassmorphism</span><span class="tag">neumorphism</span><span class="tag">parallax</span><span class="tag">micro interaction</span></div></div>
+          <div class="site-card"><div class="site-header"><div><div class="site-name">Vercel</div><div class="site-url">vercel.com</div></div><span class="site-count">24</span></div><div class="color-row"><div class="color-swatch" style="background:#000000"></div><div class="color-swatch" style="background:#ffffff"></div><div class="color-swatch" style="background:#0070f3"></div><div class="color-swatch" style="background:#76b900"></div></div><div class="tech-row"><span class="tag">container queries</span><span class="tag">dark mode</span><span class="tag">webgl</span><span class="tag">masonry</span></div></div>
+          <div class="site-card"><div class="site-header"><div><div class="site-name">Obys Agency</div><div class="site-url">obys.agency</div></div><span class="site-count">9</span></div><div class="color-row"><div class="color-swatch" style="background:#0a0a0a"></div><div class="color-swatch" style="background:#ffffff"></div></div><div class="tech-row"><span class="tag">horizontal scroll</span></div></div>
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <div class="card"><h2>◐ Techniques (11)</h2>
+          <div class="technique-item"><div><div class="technique-name">glassmorphism</div><div class="technique-desc">Backdrop blur + transparency</div></div><span class="technique-count">3 sites</span></div>
+          <div class="technique-item"><div><div class="technique-name">neumorphism</div><div class="technique-desc">Soft shadows + inset lighting</div></div><span class="technique-count">2 sites</span></div>
+          <div class="technique-item"><div><div class="technique-name">parallax</div><div class="technique-desc">Scroll-driven depth layers</div></div><span class="technique-count">4 sites</span></div>
+          <div class="technique-item"><div><div class="technique-name">WebGL</div><div class="technique-desc">GPU-accelerated 3D</div></div><span class="technique-count">2 sites</span></div>
+          <div class="technique-item"><div><div class="technique-name">container queries</div><div class="technique-desc">Component-level responsive</div></div><span class="technique-count">2 sites</span></div>
+          <div class="technique-item"><div><div class="technique-name">dark mode</div><div class="technique-desc">First-class dark theme</div></div><span class="technique-count">5 sites</span></div>
+          <div class="technique-item"><div><div class="technique-name">micro-interaction</div><div class="technique-desc">Hover/tap/click feedback</div></div><span class="technique-count">4 sites</span></div>
+          <div class="technique-item"><div><div class="technique-name">sticky header</div><div class="technique-desc">Position sticky navigation</div></div><span class="technique-count">3 sites</span></div>
+        </div>
+        <div class="card"><h2>◫ Cloned Repos (20)</h2>
+          <div class="repo-item"><div class="repo-icon">◫</div><div><div class="repo-name">shadcn/ui</div><div class="repo-meta">design-system · 102 anim · 279 comp</div></div></div>
+          <div class="repo-item"><div class="repo-icon">◫</div><div><div class="repo-name">Drei</div><div class="repo-meta">3d · 739 anim · 9 comp</div></div></div>
+          <div class="repo-item"><div class="repo-icon">◫</div><div><div class="repo-name">NextUI</div><div class="repo-meta">design-system · 248 anim · 17 comp</div></div></div>
+          <div class="repo-item"><div class="repo-icon">◫</div><div><div class="repo-name">Tailwind CSS</div><div class="repo-meta">css · 671 anim · 0 comp</div></div></div>
+          <div class="repo-item"><div class="repo-icon">◫</div><div><div class="repo-name">Three.js</div><div class="repo-meta">3d · 466 anim · 3 comp</div></div></div>
+          <div class="repo-item"><div class="repo-icon">◫</div><div><div class="repo-name">GSAP</div><div class="repo-meta">animation · 221 anim · 0 comp</div></div></div>
+        </div>
+      </div>
+
+      <div class="card" style="margin-top:24px"><h2>🔧 Tools Detected (12)</h2><div class="tools-grid"><span class="tool-pill">svg</span><span class="tool-pill">blender</span><span class="tool-pill">three.js</span><span class="tool-pill">figma</span><span class="tool-pill">gsap</span><span class="tool-pill">tailwind</span><span class="tool-pill">framer</span><span class="tool-pill">css animation</span><span class="tool-pill">sketch</span><span class="tool-pill">after effects</span><span class="tool-pill">webgl</span><span class="tool-pill">framer motion</span></div></div>
+    </div>
+
+    <!-- SITES PAGE -->
+    <div id="page-sites" class="page">
+      <h1>Site Extractions</h1>
+      <p class="subtitle">8 sites reverse-engineered</p>
+      <div class="card">
+        <div class="site-card"><div class="site-header"><div><div class="site-name">Linear</div><div class="site-url">linear.app</div></div><span class="site-count">195</span></div><p style="font-size:12px;color:var(--muted);margin-bottom:8px">190 CSS animations extracted. Best dark-mode SaaS UI. Gold standard for developer tools.</p><div class="color-row"><div class="color-swatch" style="background:#08090a"></div><div class="color-swatch" style="background:#1a1a1a"></div><div class="color-swatch" style="background:#2a2a2a"></div><div class="color-swatch" style="background:#5a5a5a"></div><div class="color-swatch" style="background:#8a8a8a"></div></div><div class="tech-row"><span class="tag">dark mode</span><span class="tag">micro interaction</span><span class="tag">sticky header</span></div></div>
+        <div class="site-card"><div class="site-header"><div><div class="site-name">Stripe</div><div class="site-url">stripe.com</div></div><span class="site-count">31</span></div><p style="font-size:12px;color:var(--muted);margin-bottom:8px">Gold standard SaaS. Gradient animations, typography system, micro-interactions.</p><div class="color-row"><div class="color-swatch" style="background:#031323"></div><div class="color-swatch" style="background:#4285f4"></div><div class="color-swatch" style="background:#34a853"></div><div class="color-swatch" style="background:#fbbc04"></div></div><div class="tech-row"><span class="tag">sticky header</span><span class="tag">micro interaction</span></div></div>
+        <div class="site-card"><div class="site-header"><div><div class="site-name">Raycast</div><div class="site-url">raycast.com</div></div><span class="site-count">39</span></div><p style="font-size:12px;color:var(--muted);margin-bottom:8px">17 gradient patterns. macOS-style web design. Glassmorphism + neumorphism.</p><div class="color-row"><div class="color-swatch" style="background:#20235b"></div><div class="color-swatch" style="background:#070921"></div><div class="color-swatch" style="background:#2b5eb4"></div><div class="color-swatch" style="background:#ff6363"></div></div><div class="tech-row"><span class="tag">glassmorphism</span><span class="tag">neumorphism</span><span class="tag">parallax</span></div></div>
+        <div class="site-card"><div class="site-header"><div><div class="site-name">Vercel</div><div class="site-url">vercel.com</div></div><span class="site-count">24</span></div><p style="font-size:12px;color:var(--muted);margin-bottom:8px">Developer platform. Gradient mesh, deployment animations, container queries.</p><div class="color-row"><div class="color-swatch" style="background:#000000"></div><div class="color-swatch" style="background:#ffffff"></div><div class="color-swatch" style="background:#0070f3"></div></div><div class="tech-row"><span class="tag">container queries</span><span class="tag">dark mode</span><span class="tag">webgl</span></div></div>
+        <div class="site-card"><div class="site-header"><div><div class="site-name">Obys Agency</div><div class="site-url">obys.agency</div></div><span class="site-count">9</span></div><p style="font-size:12px;color:var(--muted);margin-bottom:8px">Awwwards winner. GSAP, cursor effects, page transitions, horizontal scroll.</p><div class="color-row"><div class="color-swatch" style="background:#0a0a0a"></div><div class="color-swatch" style="background:#ffffff"></div></div><div class="tech-row"><span class="tag">horizontal scroll</span></div></div>
+        <div class="site-card"><div class="site-header"><div><div class="site-name">Shader Studio</div><div class="site-url">shader.se</div></div><span class="site-count">10</span></div><p style="font-size:12px;color:var(--muted);margin-bottom:8px">WebGL shader patterns, interactive 3D, canvas animation.</p><div class="color-row"><div class="color-swatch" style="background:#1a1a2e"></div></div><div class="tech-row"><span class="tag">webgl</span><span class="tag">canvas animation</span><span class="tag">shader</span></div></div>
+      </div>
+    </div>
+
+    <!-- VIDEOS PAGE -->
+    <div id="page-videos" class="page">
+      <h1>YouTube Design Videos</h1>
+      <p class="subtitle">2,479 videos from 33 channels · 30 days</p>
+      <div class="grid-2">
+        <div class="card"><h2>▶ DesignCourse</h2>
+          <div class="video-item"><div class="video-thumb">▶</div><div><div class="video-title">13 Mistakes Beginner UI Designers Make</div><div class="video-tools"><span class="tag">ui</span></div></div></div>
+          <div class="video-item"><div class="video-thumb">▶</div><div><div class="video-title">SVG Filters are Sick! Image Turbulence</div><div class="video-tools"><span class="tag">svg</span></div></div></div>
+          <div class="video-item"><div class="video-thumb">▶</div><div><div class="video-title">HTML in Canvas is Futuristic AF</div><div class="video-tools"><span class="tag">canvas</span></div></div></div>
+          <div class="video-item"><div class="video-thumb">▶</div><div><div class="video-title">Framer Shaders are SICK</div><div class="video-tools"><span class="tag">framer</span></div></div></div>
+        </div>
+        <div class="card"><h2>▶ Other Channels</h2>
+          <div class="video-item"><div class="video-thumb">▶</div><div><div class="video-title">TOP UI/UX Animations of April 2026</div><div class="video-channel">Orizon Design</div></div></div>
+          <div class="video-item"><div class="video-thumb">▶</div><div><div class="video-title">CSS Color Game is way harder</div><div class="video-channel">Kevin Powell</div></div></div>
+          <div class="video-item"><div class="video-thumb">▶</div><div><div class="video-title">Native Lazy Loading + Fallback</div><div class="video-channel">DesignCourse</div></div></div>
+          <div class="video-item"><div class="video-thumb">▶</div><div><div class="video-title">CSS Multi-Columns Newspaper Layouts</div><div class="video-channel">DesignCourse</div></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- REPOS PAGE -->
+    <div id="page-repos" class="page">
+      <h1>GitHub Repos</h1>
+      <p class="subtitle">20 repos cloned · 38 animations · 165 components</p>
+      <div class="card">
+        <div class="repo-item"><div class="repo-icon">◫</div><div><div class="repo-name">shadcn/ui</div><div class="repo-meta">design-system · 102 animations · 279 components</div></div></div>
+        <div class="repo-item"><div class="repo-icon">◫</div><div><div class="repo-name">Drei</div><div class="repo-meta">3d · 739 animations · 9 components</div></div></div>
+        <div class="repo-item"><div class="repo-icon">◫</div><div><div class="repo-name">NextUI</div><div class="repo-meta">design-system · 248 animations · 17 components</div></div></div>
+        <div class="repo-item"><div class="repo-icon">◫</div><div><div class="repo-name">Tailwind CSS</div><div class="repo-meta">css · 671 animations · 0 components</div></div></div>
+        <div class="repo-item"><div class="repo-icon">◫</div><div><div class="repo-name">Three.js</div><div class="repo-meta">3d · 466 animations · 3 components</div></div></div>
+        <div class="repo-item"><div class="repo-icon">◫</div><div><div class="repo-name">GSAP</div><div class="repo-meta">animation · 221 animations · 0 components</div></div></div>
+        <div class="repo-item"><div class="repo-icon">◫</div><div><div class="repo-name">React Three Fiber</div><div class="repo-meta">3d · 177 animations · 1 component</div></div></div>
+        <div class="repo-item"><div class="repo-icon">◫</div><div><div class="repo-name">Braid Design System</div><div class="repo-meta">design-system · 197 animations · 78 components</div></div></div>
+      </div>
+    </div>
+
+    <!-- TOKENS PAGE -->
+    <div id="page-tokens" class="page">
+      <h1>Design Tokens</h1>
+      <p class="subtitle">Colors extracted from top sites</p>
+      <div class="grid-2">
+        <div class="card"><h2>Linear</h2><div style="display:flex;gap:8px;flex-wrap:wrap"><div><div style="width:48px;height:48px;border-radius:8px;background:#08090a;margin-bottom:4px"></div><div style="font-size:9px;font-family:monospace;color:var(--muted)">#08090a</div></div><div><div style="width:48px;height:48px;border-radius:8px;background:#1a1a1a;margin-bottom:4px"></div><div style="font-size:9px;font-family:monospace;color:var(--muted)">#1a1a1a</div></div><div><div style="width:48px;height:48px;border-radius:8px;background:#2a2a2a;margin-bottom:4px"></div><div style="font-size:9px;font-family:monospace;color:var(--muted)">#2a2a2a</div></div><div><div style="width:48px;height:48px;border-radius:8px;background:#5a5a5a;margin-bottom:4px"></div><div style="font-size:9px;font-family:monospace;color:var(--muted)">#5a5a5a</div></div><div><div style="width:48px;height:48px;border-radius:8px;background:#8a8a8a;margin-bottom:4px"></div><div style="font-size:9px;font-family:monospace;color:var(--muted)">#8a8a8a</div></div></div></div>
+        <div class="card"><h2>Stripe</h2><div style="display:flex;gap:8px;flex-wrap:wrap"><div><div style="width:48px;height:48px;border-radius:8px;background:#031323;margin-bottom:4px"></div><div style="font-size:9px;font-family:monospace;color:var(--muted)">#031323</div></div><div><div style="width:48px;height:48px;border-radius:8px;background:#4285f4;margin-bottom:4px"></div><div style="font-size:9px;font-family:monospace;color:var(--muted)">#4285f4</div></div><div><div style="width:48px;height:48px;border-radius:8px;background:#34a853;margin-bottom:4px"></div><div style="font-size:9px;font-family:monospace;color:var(--muted)">#34a853</div></div><div><div style="width:48px;height:48px;border-radius:8px;background:#fbbc04;margin-bottom:4px"></div><div style="font-size:9px;font-family:monospace;color:var(--muted)">#fbbc04</div></div></div></div>
+        <div class="card"><h2>Raycast</h2><div style="display:flex;gap:8px;flex-wrap:wrap"><div><div style="width:48px;height:48px;border-radius:8px;background:#20235b;margin-bottom:4px"></div><div style="font-size:9px;font-family:monospace;color:var(--muted)">#20235b</div></div><div><div style="width:48px;height:48px;border-radius:8px;background:#070921;margin-bottom:4px"></div><div style="font-size:9px;font-family:monospace;color:var(--muted)">#070921</div></div><div><div style="width:48px;height:48px;border-radius:8px;background:#2b5eb4;margin-bottom:4px"></div><div style="font-size:9px;font-family:monospace;color:var(--muted)">#2b5eb4</div></div><div><div style="width:48px;height:48px;border-radius:8px;background:#ff6363;margin-bottom:4px"></div><div style="font-size:9px;font-family:monospace;color:var(--muted)">#ff6363</div></div></div></div>
+        <div class="card"><h2>Vercel</h2><div style="display:flex;gap:8px;flex-wrap:wrap"><div><div style="width:48px;height:48px;border-radius:8px;background:#000000;margin-bottom:4px"></div><div style="font-size:9px;font-family:monospace;color:var(--muted)">#000000</div></div><div><div style="width:48px;height:48px;border-radius:8px;background:#ffffff;margin-bottom:4px"></div><div style="font-size:9px;font-family:monospace;color:var(--muted)">#ffffff</div></div><div><div style="width:48px;height:48px;border-radius:8px;background:#0070f3;margin-bottom:4px"></div><div style="font-size:9px;font-family:monospace;color:var(--muted)">#0070f3</div></div></div></div>
+      </div>
+    </div>
+
+    <!-- TECHNIQUES PAGE -->
+    <div id="page-techniques" class="page">
+      <h1>Design Techniques</h1>
+      <p class="subtitle">11 advanced techniques detected across all sites</p>
+      <div class="card">
+        <div class="technique-item"><div><div class="technique-name">glassmorphism</div><div class="technique-desc">Backdrop blur + transparency</div></div><span class="technique-count">3 sites</span></div>
+        <div class="technique-item"><div><div class="technique-name">neumorphism</div><div class="technique-desc">Soft shadows + inset lighting</div></div><span class="technique-count">2 sites</span></div>
+        <div class="technique-item"><div><div class="technique-name">parallax</div><div class="technique-desc">Scroll-driven depth layers</div></div><span class="technique-count">4 sites</span></div>
+        <div class="technique-item"><div><div class="technique-name">WebGL</div><div class="technique-desc">GPU-accelerated 3D</div></div><span class="technique-count">2 sites</span></div>
+        <div class="technique-item"><div><div class="technique-name">container queries</div><div class="technique-desc">Component-level responsive</div></div><span class="technique-count">2 sites</span></div>
+        <div class="technique-item"><div><div class="technique-name">dark mode</div><div class="technique-desc">First-class dark theme</div></div><span class="technique-count">5 sites</span></div>
+        <div class="technique-item"><div><div class="technique-name">micro-interaction</div><div class="technique-desc">Hover/tap/click feedback</div></div><span class="technique-count">4 sites</span></div>
+        <div class="technique-item"><div><div class="technique-name">sticky header</div><div class="technique-desc">Position sticky navigation</div></div><span class="technique-count">3 sites</span></div>
+        <div class="technique-item"><div><div class="technique-name">masonry</div><div class="technique-desc">Pinterest-style layout</div></div><span class="technique-count">2 sites</span></div>
+        <div class="technique-item"><div><div class="technique-name">horizontal scroll</div><div class="technique-desc">Sideways scroll sections</div></div><span class="technique-count">2 sites</span></div>
+        <div class="technique-item"><div><div class="technique-name">canvas animation</div><div class="technique-desc">Programmatic drawing</div></div><span class="technique-count">3 sites</span></div>
+      </div>
+    </div>
+
+    <!-- SNIPPETS PAGE -->
+    <div id="page-snippets" class="page">
+      <h1>Code Snippets</h1>
+      <p class="subtitle">Copyable code from top sites and repos</p>
+      <div class="card" style="margin-bottom:16px"><h2>Linear — Grid Dot Animation</h2><pre style="background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:16px;font-size:12px;font-family:monospace;color:var(--muted);overflow-x:auto;white-space:pre-wrap">@keyframes grid-dot-agent {
+  0% { opacity: 0; transform: scale(0); }
+  50% { opacity: 1; transform: scale(1.2); }
+  100% { opacity: 0.3; transform: scale(1); }
+}</pre></div>
+      <div class="card" style="margin-bottom:16px"><h2>Raycast — Gradient Mesh</h2><pre style="background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:16px;font-size:12px;font-family:monospace;color:var(--muted);overflow-x:auto;white-space:pre-wrap">.hero-gradient {
+  background: 
+    linear-gradient(138deg, rgba(32,35,91,0.7) 22%, rgba(7,9,33,0.7) 82%),
+    radial-gradient(94% 78% at 50% 30%, rgba(43,94,180,0.7), rgba(13,16,35,0.42));
+}</pre></div>
+      <div class="card" style="margin-bottom:16px"><h2>Stripe — Sticky Header</h2><pre style="background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:16px;font-size:12px;font-family:monospace;color:var(--muted);overflow-x:auto;white-space:pre-wrap">.sticky-header {
+  position: sticky; top: 0; z-index: 100;
+  backdrop-filter: blur(20px) saturate(180%);
+  background: rgba(255, 255, 255, 0.85);
+}</pre></div>
+      <div class="card" style="margin-bottom:16px"><h2>GSAP — Horizontal Scroll</h2><pre style="background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:16px;font-size:12px;font-family:monospace;color:var(--muted);overflow-x:auto;white-space:pre-wrap">gsap.to('.section', {
+  xPercent: -100 * (sections.length - 1),
+  ease: 'none',
+  scrollTrigger: { trigger: '.container', pin: true, scrub: 1 }
+});</pre></div>
+    </div>
+
+    <!-- KANBAN PAGE -->
+    <div id="page-kanban" class="page">
+      <h1>Product Studio — Kanban</h1>
+      <p class="subtitle">Live agent task board</p>
+      <iframe src="http://localhost:7843/kanban" style="width:100%;height:600px;border:1px solid var(--border);border-radius:8px" title="Kanban"></iframe>
+    </div>
+
+    <!-- PROVOCATIONS PAGE -->
+    <div id="page-provocations" class="page">
+      <h1>Design Provocations</h1>
+      <p class="subtitle">Questions the design studio is not asking</p>
+      <div class="provocation-item"><div class="provocation-cat">ORTHODOXY</div><div class="provocation-q">Why do we still build design systems as component libraries instead of token pipelines?</div></div>
+      <div class="provocation-item"><div class="provocation-cat">WOUND</div><div class="provocation-q">Why does every design system migration take 18+ months?</div></div>
+      <div class="provocation-item"><div class="provocation-cat">VOCABULARY</div><div class="provocation-q">What if 'design system' is actually 'design bureaucracy'?</div></div>
+      <div class="provocation-item"><div class="provocation-cat">VILLAIN</div><div class="provocation-q">Who profits from design system complexity staying high?</div></div>
+      <div class="provocation-item"><div class="provocation-cat">PROOF GAP</div><div class="provocation-q">Where's the evidence that design systems reduce development time?</div></div>
+      <div class="provocation-item"><div class="provocation-cat">FORMAT</div><div class="provocation-q">Why does every case study follow the same 'challenge → solution → result' format?</div></div>
+      <div class="provocation-item"><div class="provocation-cat">ADJACENT</div><div class="provocation-q">What if we designed like architects — form follows function, always?</div></div>
+      <div class="provocation-item"><div class="provocation-cat">MOTION</div><div class="provocation-q">Why do we animate everything instead of only what communicates?</div></div>
+      <div class="provocation-item"><div class="provocation-cat">TOKENS</div><div class="provocation-q">Why do we name colors by their value instead of their purpose?</div></div>
+      <div class="provocation-item"><div class="provocation-cat">PROCESS</div><div class="provocation-q">Why do we ship without measuring?</div></div>
+    </div>
+
+    <!-- SCORING PAGE -->
+    <div id="page-scoring" class="page">
+      <h1>Score a Design</h1>
+      <p class="subtitle">BDF, Craft, AntiGeneric, Reactance</p>
+      <div class="card">
+        <textarea id="scoreInput" class="score-input" placeholder="Paste your design copy here..."></textarea>
+        <button class="score-btn" onclick="runScore()">◈ Score Design</button>
+        <div id="scoreResult" class="score-result" style="display:none"></div>
+      </div>
+    </div>
+
+    <!-- FORBIDDEN PAGE -->
+    <div id="page-forbidden" class="page">
+      <h1>Forbidden List</h1>
+      <p class="subtitle">Phrases, formats, CTAs that fail the median test</p>
+      <div class="forbidden-grid">
+        <div class="forbidden-col"><h3>🚫 Phrases</h3>
+          <div class="forbidden-item">excited to share</div>
+          <div class="forbidden-item">game changer</div>
+          <div class="forbidden-item">paradigm shift</div>
+          <div class="forbidden-item">deep dive</div>
+          <div class="forbidden-item">level up your</div>
+          <div class="forbidden-item">let me know your thoughts</div>
+          <div class="forbidden-item">agree?</div>
+          <div class="forbidden-item">thoughts?</div>
+          <div class="forbidden-item">happy to help</div>
+          <div class="forbidden-item">just checking in</div>
+        </div>
+        <div class="forbidden-col"><h3>🚫 Formats</h3>
+          <div class="forbidden-item">10 best design tools</div>
+          <div class="forbidden-item">design trends 2026</div>
+          <div class="forbidden-item">figma tips and tricks</div>
+          <div class="forbidden-item">how to build a design system</div>
+          <div class="forbidden-item">ui design checklist</div>
+          <div class="forbidden-item">component comparison table</div>
+        </div>
+        <div class="forbidden-col"><h3>🚫 CTAs</h3>
+          <div class="forbidden-item">let me know your thoughts</div>
+          <div class="forbidden-item">what do you think?</div>
+          <div class="forbidden-item">drop a comment</div>
+          <div class="forbidden-item">share your experience</div>
+          <div class="forbidden-item">tag someone who needs this</div>
+          <div class="forbidden-item">save this for later</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+function showPage(id) {
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  document.getElementById('page-' + id).classList.add('active');
+  document.querySelectorAll('.sidebar nav a').forEach(a => a.classList.remove('active'));
+  event.target.closest('a')?.classList.add('active');
+}
+function runScore() {
+  const input = document.getElementById('scoreInput').value;
+  if (!input.trim()) return;
+  const words = input.split(/\s+/).length;
+  const sentences = input.split(/[.!?]+/).filter(s => s.trim()).length;
+  const avgLen = words / Math.max(sentences, 1);
+  const forbidden = ["excited to share","game changer","paradigm shift","deep dive","level up","let me know your thoughts","agree?","thoughts?"];
+  const hits = forbidden.filter(f => input.toLowerCase().includes(f));
+  const restraint = Math.max(0, 1 - avgLen / 25);
+  const craft = Math.min(1, restraint * 1.2);
+  const bdf = (craft * 10 - 5) * (hits.length > 0 ? 0.5 : 1);
+  const result = `Words: ${words} | Avg sentence: ${avgLen.toFixed(1)} | Craft: ${(craft*100).toFixed(0)}% | BDF: ${bdf.toFixed(1)} ${bdf >= 8 ? '✅ PASS' : '❌ FAIL'}${hits.length ? ' | 🚫 Forbidden: ' + hits.join(', ') : ''}`;
+  const el = document.getElementById('scoreResult');
+  el.textContent = result;
+  el.style.display = 'block';
+}
+</script>
+</body>
+</html>
